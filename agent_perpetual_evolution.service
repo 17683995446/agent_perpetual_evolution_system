@@ -1,0 +1,51 @@
+[Unit]
+Description=Agent 永续自进化系统服务
+Documentation=https://github.com/agent_perpetual_evolution
+After=network.target
+Wants=network.target
+
+[Service]
+# 服务类型
+Type=simple
+
+# 执行用户和组
+User=root
+Group=root
+
+# 工作目录
+WorkingDirectory=/workspace/agent_perpetual_evolution_system
+
+# 启动命令
+# 注意：根据实际情况替换为您要运行的命令
+# 例如：运行演示程序、API服务等
+ExecStart=/usr/bin/python3 /workspace/agent_perpetual_evolution_system/demo_v9_quantum_agi_application.py
+
+# 停止命令
+ExecStop=/bin/kill -TERM $MAINPID
+
+# 重启策略
+# on-failure: 异常退出时重启
+# always: 总是重启
+Restart=always
+
+# 重启延迟
+RestartSec=5
+
+# 看门狗配置
+# WatchdogSec=30  # 如果启用，服务需要调用 systemd-notify --ready
+
+# 资源限制
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# 环境变量
+Environment="PYTHONPATH=/workspace/agent_perpetual_evolution_system"
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+
+# 标准输出和错误日志
+StandardOutput=append:/var/log/agent_perpetual_evolution_system.log
+StandardError=append:/var/log/agent_perpetual_evolution_system.err.log
+
+[Install]
+# 开机自启
+WantedBy=multi-user.target
