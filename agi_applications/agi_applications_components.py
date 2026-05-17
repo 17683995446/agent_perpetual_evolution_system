@@ -108,49 +108,99 @@ class AGICreativeEngine:
         self.engine_id = str(uuid.uuid4())[:8]
         print("🎨 AGI创意引擎初始化完成")
 
-    def generate_art(self, style: str, subject: str) -> CreativeWork:
-        """生成艺术作品"""
-        content = f"一幅{style}风格的{subject}主题艺术作品"
-        return CreativeWork(
-            work_id=str(uuid.uuid4())[:8],
-            work_type="art",
-            content=content,
-            creativity_score=random.uniform(0.8, 0.98),
-            created_at=datetime.now()
-        )
+    def generate_art(self, style: str, subject: str) -> Dict:
+        """生成艺术作品（统一字典格式）"""
+        try:
+            if not style:
+                style = "abstract"
+            if not subject:
+                subject = "art"
+                
+            content = f"一幅{style}风格的{subject}主题艺术作品"
+            return {
+                "status": "success",
+                "work_id": str(uuid.uuid4())[:8],
+                "work_type": "art",
+                "content": content,
+                "creativity_score": round(random.uniform(0.8, 0.98), 3),
+                "created_at": datetime.now().isoformat()
+            }
+        except Exception as e:
+            return {
+                "status": "error",
+                "message": f"艺术创作失败: {str(e)}"
+            }
 
-    def generate_story(self, genre: str, theme: str, length: str = "medium") -> CreativeWork:
-        """生成故事"""
-        content = f"一个{length}长度的{genre}类型故事，主题是'{theme}'"
-        return CreativeWork(
-            work_id=str(uuid.uuid4())[:8],
-            work_type="story",
-            content=content,
-            creativity_score=random.uniform(0.75, 0.95),
-            created_at=datetime.now()
-        )
+    def generate_story(self, genre: str, theme: str, length: str = "medium") -> Dict:
+        """生成故事（统一字典格式）"""
+        try:
+            if not genre:
+                genre = "fiction"
+            if not theme:
+                theme = "adventure"
+                
+            content = f"一个{length}长度的{genre}类型故事，主题是'{theme}'"
+            return {
+                "status": "success",
+                "work_id": str(uuid.uuid4())[:8],
+                "work_type": "story",
+                "content": content,
+                "creativity_score": round(random.uniform(0.75, 0.95), 3),
+                "created_at": datetime.now().isoformat()
+            }
+        except Exception as e:
+            return {
+                "status": "error",
+                "message": f"故事生成失败: {str(e)}"
+            }
 
-    def compose_music(self, genre: str, mood: str, duration: int) -> CreativeWork:
-        """作曲"""
-        content = f"一首{duration}秒的{mood}风格{genre}音乐"
-        return CreativeWork(
-            work_id=str(uuid.uuid4())[:8],
-            work_type="music",
-            content=content,
-            creativity_score=random.uniform(0.7, 0.92),
-            created_at=datetime.now()
-        )
+    def compose_music(self, genre: str, mood: str, duration: int) -> Dict:
+        """作曲（统一字典格式）"""
+        try:
+            if not genre:
+                genre = "classical"
+            if not mood:
+                mood = "peaceful"
+            if not isinstance(duration, int) or duration <=0:
+                duration = 60
+                
+            content = f"一首{duration}秒的{mood}风格{genre}音乐"
+            return {
+                "status": "success",
+                "work_id": str(uuid.uuid4())[:8],
+                "work_type": "music",
+                "content": content,
+                "creativity_score": round(random.uniform(0.7, 0.92), 3),
+                "created_at": datetime.now().isoformat()
+            }
+        except Exception as e:
+            return {
+                "status": "error",
+                "message": f"音乐创作失败: {str(e)}"
+            }
 
-    def write_poetry(self, style: str, emotion: str) -> CreativeWork:
-        """写诗"""
-        content = f"一首{style}风格的，表达'{emotion}'情感的诗歌"
-        return CreativeWork(
-            work_id=str(uuid.uuid4())[:8],
-            work_type="poetry",
-            content=content,
-            creativity_score=random.uniform(0.75, 0.96),
-            created_at=datetime.now()
-        )
+    def write_poetry(self, style: str, emotion: str) -> Dict:
+        """写诗（统一字典格式）"""
+        try:
+            if not style:
+                style = "modern"
+            if not emotion:
+                emotion = "joy"
+                
+            content = f"一首{style}风格的，表达'{emotion}'情感的诗歌"
+            return {
+                "status": "success",
+                "work_id": str(uuid.uuid4())[:8],
+                "work_type": "poetry",
+                "content": content,
+                "creativity_score": round(random.uniform(0.75, 0.96), 3),
+                "created_at": datetime.now().isoformat()
+            }
+        except Exception as e:
+            return {
+                "status": "error",
+                "message": f"诗歌创作失败: {str(e)}"
+            }
 
 
 class AGILanguageModel:
