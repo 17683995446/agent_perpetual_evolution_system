@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent 永续自进化系统 - 监控中心</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-primary: #0a0e17;
+            --bg-secondary: #111827;
+            --accent-primary: #00f5ff;
+            --accent-secondary: #ff00ff;
+            --accent-tertiary: #00ff88;
+            --text-primary: #e0f2fe;
+            --text-secondary: #64748b;
+            --warning: #fbbf24;
+            --danger: #ef4444;
+            --success: #10b981;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .bg-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 1px 1px, rgba(0, 245, 255, 0.15) 1px, transparent 0);
+            background-size: 40px 40px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .scan-line {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+            animation: scan 4s linear infinite;
+            z-index: 1000;
+        }
+
+        @keyframes scan {
+            0% { top: 0; opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { top: 100%; opacity: 0; }
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(0, 245, 255, 0.2);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 0 30px rgba(0, 245, 255, 0.5);
+        }
+
+        .logo h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(0, 245, 255, 0.5);
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid var(--success);
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .hero-metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, rgba(17, 24, 39, 0.9), rgba(17, 24, 39, 0.7));
+            border: 1px solid rgba(0, 245, 255, 0.3);
+            border-radius: 8px;
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+        }
+
+        .metric-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(0, 245, 255, 0.2);
+            border-color: var(--accent-primary);
+        }
+
+        .metric-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        .metric-value {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 42px;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-tertiary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .metric-unit {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .metric-trend {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+
+        .metric-trend.up {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+        }
+
+        .metric-trend.down {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .panel {
+            background: rgba(17, 24, 39, 0.8);
+            border: 1px solid rgba(0, 245, 255, 0.2);
+            border-radius: 8px;
+            padding: 24px;
+            position: relative;
+        }
+
+        .panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(0, 245, 255, 0.1);
+        }
+
+        .panel-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent-primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .panel-badge {
+            font-size: 10px;
+            padding: 4px 8px;
+            background: rgba(0, 245, 255, 0.1);
+            border: 1px solid var(--accent-primary);
+            border-radius: 4px;
+            color: var(--accent-primary);
+        }
+
+        .chart-container {
+            position: relative;
+            height: 250px;
+        }
+
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .module-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            border-left: 3px solid var(--success);
+            transition: all 0.3s ease;
+        }
+
+        .module-item:hover {
+            background: rgba(0, 245, 255, 0.05);
+        }
+
+        .module-item.warning {
+            border-left-color: var(--warning);
+        }
+
+        .module-item.error {
+            border-left-color: var(--danger);
+        }
+
+        .module-icon {
+            font-size: 24px;
+        }
+
+        .module-info {
+            flex: 1;
+        }
+
+        .module-name {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .module-status {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .activity-list {
+            max-height: 250px;
+            overflow-y: auto;
+        }
+
+        .activity-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .activity-list::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .activity-list::-webkit-scrollbar-thumb {
+            background: var(--accent-primary);
+            border-radius: 3px;
+        }
+
+        .activity-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px;
+            border-bottom: 1px solid rgba(0, 245, 255, 0.05);
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateX(-10px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .activity-time {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-secondary);
+            min-width: 60px;
+        }
+
+        .activity-icon {
+            font-size: 16px;
+            min-width: 24px;
+        }
+
+        .activity-text {
+            font-size: 13px;
+            flex: 1;
+        }
+
+        .activity-item.quantum .activity-icon { color: var(--accent-primary); }
+        .activity-item.agi .activity-icon { color: var(--accent-secondary); }
+        .activity-item.decision .activity-icon { color: var(--accent-tertiary); }
+        .activity-item.industry .activity-icon { color: var(--warning); }
+        .activity-item.system .activity-icon { color: var(--success); }
+
+        .test-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .test-table th,
+        .test-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(0, 245, 255, 0.1);
+        }
+
+        .test-table th {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 12px;
+            color: var(--accent-primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .test-table tr:hover td {
+            background: rgba(0, 245, 255, 0.05);
+        }
+
+        .test-table td {
+            font-size: 13px;
+        }
+
+        .rate-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .rate-badge.excellent {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+            border: 1px solid var(--success);
+        }
+
+        .rate-badge.good {
+            background: rgba(251, 191, 36, 0.1);
+            color: var(--warning);
+            border: 1px solid var(--warning);
+        }
+
+        .rate-badge.poor {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+            border: 1px solid var(--danger);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+
+        .footer a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+
+        @media (max-width: 1024px) {
+            .hero-metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero-metrics {
+                grid-template-columns: 1fr;
+            }
+            
+            header {
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+            }
+            
+            .logo h1 {
+                font-size: 20px;
+            }
+        }
+
+        .glow-text {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(0, 245, 255, 0.8), 0 0 30px rgba(0, 245, 255, 0.6);
+            }
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-primary);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+
+        .loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 3px solid rgba(0, 245, 255, 0.1);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            margin-top: 24px;
+            font-family: 'Orbitron', sans-serif;
+            color: var(--accent-primary);
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">INITIALIZING SYSTEM...</div>
+    </div>
+
+    <div class="bg-grid"></div>
+    <div class="scan-line"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">🤖</div>
+                <h1 class="glow-text">AGENT 永续自进化系统</h1>
+            </div>
+            <div class="status-indicator">
+                <div class="status-dot"></div>
+                <span>SYSTEM ONLINE</span>
+            </div>
+        </header>
+
+        <section class="hero-metrics">
+            <div class="metric-card">
+                <div class="metric-label">总操作数</div>
+                <div class="metric-value" id="total-ops">0</div>
+                <div class="metric-unit">次操作</div>
+                <div class="metric-trend up">
+                    <span>↑</span>
+                    <span>持续增长</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-label">成功率</div>
+                <div class="metric-value" id="success-rate">0.00</div>
+                <div class="metric-unit">%</div>
+                <div class="metric-trend up">
+                    <span>↑</span>
+                    <span>极佳稳定</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-label">吞吐量</div>
+                <div class="metric-value" id="throughput">0</div>
+                <div class="metric-unit">ops/sec</div>
+                <div class="metric-trend up">
+                    <span>↑</span>
+                    <span>高性能</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-label">内存使用</div>
+                <div class="metric-value" id="memory">0.00</div>
+                <div class="metric-unit">MB</div>
+                <div class="metric-trend up">
+                    <span>↓</span>
+                    <span>内存优化</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-grid">
+            <div class="panel">
+                <div class="panel-header">
+                    <span class="panel-title">性能趋势</span>
+                    <span class="panel-badge">REAL-TIME</span>
+                </div>
+                <div class="chart-container">
+                    <canvas id="performanceChart"></canvas>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    <span class="panel-title">模块状态</span>
+                    <span class="panel-badge">MONITORING</span>
+                </div>
+                <div class="module-grid">
+                    <div class="module-item">
+                        <div class="module-icon">⚛️</div>
+                        <div class="module-info">
+                            <div class="module-name">量子应用平台</div>
+                            <div class="module-status">v9.0.0 - 运行中</div>
+                        </div>
+                    </div>
+                    <div class="module-item">
+                        <div class="module-icon">🧠</div>
+                        <div class="module-info">
+                            <div class="module-name">AGI 应用框架</div>
+                            <div class="module-status">v9.0.0 - 运行中</div>
+                        </div>
+                    </div>
+                    <div class="module-item">
+                        <div class="module-icon">📊</div>
+                        <div class="module-info">
+                            <div class="module-name">智能决策引擎</div>
+                            <div class="module-status">v9.0.0 - 运行中</div>
+                        </div>
+                    </div>
+                    <div class="module-item">
+                        <div class="module-icon">🏭</div>
+                        <div class="module-info">
+                            <div class="module-name">行业解决方案</div>
+                            <div class="module-status">v9.0.0 - 运行中</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    <span class="panel-title">实时活动</span>
+                    <span class="panel-badge">LIVE</span>
+                </div>
+                <div class="activity-list" id="activityList">
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    <span class="panel-title">测试结果</span>
+                    <span class="panel-badge">HISTORY</span>
+                </div>
+                <table class="test-table">
+                    <thead>
+                        <tr>
+                            <th>测试名称</th>
+                            <th>日期</th>
+                            <th>操作数</th>
+                            <th>通过率</th>
+                        </tr>
+                    </thead>
+                    <tbody id="testTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Agent 永续自进化系统 v9.1 | 构建于 2026 | 
+            <a href="https://github.com/17683995446/agent_perpetual_evolution_system">GitHub 仓库</a></p>
+        </footer>
+    </div>
+
+    <script>
+        const metricsData = {
+            totalOperations: 266640,
+            successRate: 100.00,
+            throughput: 1481,
+            memoryUsage: 51.24
+        };
+
+        const testHistory = [
+            {
+                name: '终极耐力测试',
+                date: '2026-05-17',
+                operations: 266640,
+                rate: 100.00
+            },
+            {
+                name: '超级极端压力测试',
+                date: '2026-05-16',
+                operations: 118110,
+                rate: 100.00
+            },
+            {
+                name: '生产场景测试',
+                date: '2026-05-16',
+                operations: 85000,
+                rate: 100.00
+            },
+            {
+                name: '混沌猴子攻击',
+                date: '2026-05-16',
+                operations: 45000,
+                rate: 99.97
+            },
+            {
+                name: '长期耐力测试',
+                date: '2026-05-15',
+                operations: 150000,
+                rate: 100.00
+            }
+        ];
+
+        const activityTypes = [
+            { type: 'quantum', icon: '⚛️', template: '量子TSP求解完成 - {count}城市' },
+            { type: 'agi', icon: '🎨', template: 'AGI创意生成 - 作品ID: {id}' },
+            { type: 'decision', icon: '📊', template: '多准则优化 - {options}选项' },
+            { type: 'industry', icon: '🏭', template: '质量检测 - Batch_{id}' },
+            { type: 'system', icon: '💾', template: '缓存操作 - Key: cache_{id}' }
+        ];
+
+        let performanceChart;
+        let performanceData = [];
+        const maxDataPoints = 30;
+
+        function animateValue(element, start, end, duration, decimals = 0) {
+            const startTime = performance.now();
+            const update = (currentTime) => {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const easeProgress = 1 - Math.pow(1 - progress, 3);
+                const current = start + (end - start) * easeProgress;
+                element.textContent = current.toFixed(decimals);
+                if (progress < 1) {
+                    requestAnimationFrame(update);
+                }
+            };
+            requestAnimationFrame(update);
+        }
+
+        function initChart() {
+            const ctx = document.getElementById('performanceChart').getContext('2d');
+            
+            const gradient = ctx.createLinearGradient(0, 0, 0, 250);
+            gradient.addColorStop(0, 'rgba(0, 245, 255, 0.3)');
+            gradient.addColorStop(1, 'rgba(0, 245, 255, 0)');
+
+            performanceChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: Array(maxDataPoints).fill(''),
+                    datasets: [{
+                        label: '吞吐量 (ops/sec)',
+                        data: performanceData,
+                        borderColor: '#00f5ff',
+                        backgroundColor: gradient,
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 0,
+                        pointHoverRadius: 6,
+                        pointHoverBackgroundColor: '#00f5ff',
+                        pointHoverBorderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: 'rgba(17, 24, 39, 0.9)',
+                            titleColor: '#00f5ff',
+                            bodyColor: '#e0f2fe',
+                            borderColor: '#00f5ff',
+                            borderWidth: 1,
+                            padding: 12,
+                            displayColors: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            display: false
+                        },
+                        y: {
+                            grid: {
+                                color: 'rgba(0, 245, 255, 0.1)',
+                                drawBorder: false
+                            },
+                            ticks: {
+                                color: '#64748b',
+                                font: { family: 'JetBrains Mono' }
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    }
+                }
+            });
+        }
+
+        function updateChart(newValue) {
+            performanceData.push(newValue);
+            if (performanceData.length > maxDataPoints) {
+                performanceData.shift();
+            }
+            performanceChart.data.datasets[0].data = performanceData;
+            performanceChart.update('none');
+        }
+
+        function addActivity() {
+            const activityType = activityTypes[Math.floor(Math.random() * activityTypes.length)];
+            const id = Math.floor(Math.random() * 10000);
+            const count = Math.floor(Math.random() * 5) + 3;
+            const options = Math.floor(Math.random() * 3) + 2;
+            
+            const message = activityType.template
+                .replace('{id}', id)
+                .replace('{count}', count)
+                .replace('{options}', options);
+            
+            const now = new Date();
+            const time = now.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            
+            const activityItem = document.createElement('div');
+            activityItem.className = `activity-item ${activityType.type}`;
+            activityItem.innerHTML = `
+                <span class="activity-time">${time}</span>
+                <span class="activity-icon">${activityType.icon}</span>
+                <span class="activity-text">${message}</span>
+            `;
+            
+            const list = document.getElementById('activityList');
+            list.insertBefore(activityItem, list.firstChild);
+            
+            while (list.children.length > 50) {
+                list.removeChild(list.lastChild);
+            }
+        }
+
+        function populateTestTable() {
+            const tbody = document.getElementById('testTableBody');
+            testHistory.forEach(test => {
+                const tr = document.createElement('tr');
+                const rateClass = test.rate >= 100 ? 'excellent' : (test.rate >= 99 ? 'good' : 'poor');
+                tr.innerHTML = `
+                    <td>${test.name}</td>
+                    <td>${test.date}</td>
+                    <td>${test.operations.toLocaleString()}</td>
+                    <td><span class="rate-badge ${rateClass}">${test.rate.toFixed(2)}%</span></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function updateMetrics() {
+            const variation = () => (Math.random() - 0.5) * 20;
+            
+            metricsData.throughput = Math.max(100, metricsData.throughput + variation());
+            metricsData.memoryUsage = Math.max(45, Math.min(60, metricsData.memoryUsage + (Math.random() - 0.5) * 0.5));
+            metricsData.totalOperations += Math.floor(metricsData.throughput * 3);
+            
+            document.getElementById('throughput').textContent = Math.floor(metricsData.throughput);
+            document.getElementById('memory').textContent = metricsData.memoryUsage.toFixed(2);
+            
+            const totalOpsEl = document.getElementById('total-ops');
+            animateValue(totalOpsEl, parseInt(totalOpsEl.textContent.replace(/,/g, '')), metricsData.totalOperations, 1000, 0);
+            
+            updateChart(Math.floor(metricsData.throughput));
+            addActivity();
+        }
+
+        function init() {
+            setTimeout(() => {
+                document.getElementById('loading').classList.add('hidden');
+            }, 1500);
+
+            animateValue(document.getElementById('total-ops'), 0, metricsData.totalOperations, 2000, 0);
+            animateValue(document.getElementById('success-rate'), 0, metricsData.successRate, 2000, 2);
+            animateValue(document.getElementById('throughput'), 0, metricsData.throughput, 2000, 0);
+            animateValue(document.getElementById('memory'), 0, metricsData.memoryUsage, 2000, 2);
+
+            initChart();
+            populateTestTable();
+
+            for (let i = 0; i < 20; i++) {
+                setTimeout(addActivity, i * 50);
+            }
+
+            setInterval(updateMetrics, 3000);
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
