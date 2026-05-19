@@ -1,0 +1,2479 @@
+{
+  "test_config": {
+    "duration_minutes": 120.0,
+    "workers": 100,
+    "anomaly_rate": 0.45
+  },
+  "metrics": {
+    "total_ops": 57905426,
+    "success": 56773114,
+    "failed": 1132312,
+    "anomalies_injected": 24924786,
+    "gc_cycles": 57658,
+    "peak_memory_mb": 5.085794448852539,
+    "error_log": [
+      {
+        "time": "2026-05-18T14:57:36.152613",
+        "worker": 2,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.158590",
+        "worker": 1,
+        "step": 35,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.169139",
+        "worker": 4,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.178607",
+        "worker": 4,
+        "step": 60,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.179514",
+        "worker": 7,
+        "step": 36,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.187974",
+        "worker": 5,
+        "step": 25,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.193851",
+        "worker": 3,
+        "step": 34,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.207957",
+        "worker": 11,
+        "step": 13,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.209959",
+        "worker": 2,
+        "step": 59,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.217806",
+        "worker": 17,
+        "step": 50,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.219303",
+        "worker": 4,
+        "step": 146,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.222568",
+        "worker": 5,
+        "step": 51,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.224541",
+        "worker": 5,
+        "step": 77,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.234895",
+        "worker": 0,
+        "step": 82,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.238364",
+        "worker": 18,
+        "step": 18,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.241015",
+        "worker": 17,
+        "step": 75,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.247361",
+        "worker": 2,
+        "step": 80,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.250374",
+        "worker": 2,
+        "step": 87,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.256442",
+        "worker": 17,
+        "step": 89,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.256882",
+        "worker": 15,
+        "step": 26,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.261404",
+        "worker": 3,
+        "step": 82,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.263051",
+        "worker": 5,
+        "step": 98,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.266224",
+        "worker": 20,
+        "step": 31,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.266303",
+        "worker": 20,
+        "step": 32,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.274500",
+        "worker": 14,
+        "step": 65,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.282362",
+        "worker": 6,
+        "step": 76,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.285399",
+        "worker": 8,
+        "step": 96,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.289781",
+        "worker": 18,
+        "step": 54,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.292905",
+        "worker": 19,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.299588",
+        "worker": 13,
+        "step": 92,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.300696",
+        "worker": 8,
+        "step": 101,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.309669",
+        "worker": 23,
+        "step": 31,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.313585",
+        "worker": 6,
+        "step": 88,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.317147",
+        "worker": 8,
+        "step": 119,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.324602",
+        "worker": 3,
+        "step": 106,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.338881",
+        "worker": 0,
+        "step": 142,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.338978",
+        "worker": 0,
+        "step": 143,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.345501",
+        "worker": 6,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.346038",
+        "worker": 6,
+        "step": 101,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.355006",
+        "worker": 3,
+        "step": 165,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.355900",
+        "worker": 12,
+        "step": 67,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.356110",
+        "worker": 18,
+        "step": 61,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.358779",
+        "worker": 0,
+        "step": 154,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.362501",
+        "worker": 10,
+        "step": 73,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.363770",
+        "worker": 5,
+        "step": 170,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.371193",
+        "worker": 21,
+        "step": 56,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.372248",
+        "worker": 21,
+        "step": 73,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.374044",
+        "worker": 2,
+        "step": 161,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.376022",
+        "worker": 6,
+        "step": 113,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.378162",
+        "worker": 4,
+        "step": 236,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.378776",
+        "worker": 3,
+        "step": 174,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.387466",
+        "worker": 10,
+        "step": 126,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.388816",
+        "worker": 10,
+        "step": 140,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.390276",
+        "worker": 20,
+        "step": 91,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.390353",
+        "worker": 20,
+        "step": 92,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.395563",
+        "worker": 13,
+        "step": 133,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.396522",
+        "worker": 13,
+        "step": 148,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.398903",
+        "worker": 10,
+        "step": 146,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.413275",
+        "worker": 22,
+        "step": 111,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.425235",
+        "worker": 21,
+        "step": 105,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.427307",
+        "worker": 25,
+        "step": 9,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.430606",
+        "worker": 24,
+        "step": 24,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.434304",
+        "worker": 7,
+        "step": 170,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.434604",
+        "worker": 7,
+        "step": 174,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.434757",
+        "worker": 2,
+        "step": 174,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.436459",
+        "worker": 3,
+        "step": 237,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.438812",
+        "worker": 23,
+        "step": 78,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.445185",
+        "worker": 20,
+        "step": 111,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.448162",
+        "worker": 19,
+        "step": 78,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.452210",
+        "worker": 18,
+        "step": 84,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.453321",
+        "worker": 18,
+        "step": 99,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.456018",
+        "worker": 12,
+        "step": 92,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.483162",
+        "worker": 22,
+        "step": 149,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.486398",
+        "worker": 11,
+        "step": 151,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.486475",
+        "worker": 11,
+        "step": 152,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.488335",
+        "worker": 0,
+        "step": 191,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.490513",
+        "worker": 3,
+        "step": 267,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.498293",
+        "worker": 10,
+        "step": 197,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.501146",
+        "worker": 25,
+        "step": 42,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.507768",
+        "worker": 11,
+        "step": 182,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.508479",
+        "worker": 32,
+        "step": 0,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.516670",
+        "worker": 10,
+        "step": 205,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.517049",
+        "worker": 10,
+        "step": 211,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.522792",
+        "worker": 0,
+        "step": 211,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.526969",
+        "worker": 24,
+        "step": 78,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.531117",
+        "worker": 23,
+        "step": 110,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.541817",
+        "worker": 12,
+        "step": 150,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.542609",
+        "worker": 12,
+        "step": 161,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.544737",
+        "worker": 16,
+        "step": 75,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.547841",
+        "worker": 6,
+        "step": 170,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.549911",
+        "worker": 3,
+        "step": 278,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.552180",
+        "worker": 15,
+        "step": 154,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.552438",
+        "worker": 15,
+        "step": 158,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.559681",
+        "worker": 20,
+        "step": 164,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.567001",
+        "worker": 23,
+        "step": 148,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.570548",
+        "worker": 7,
+        "step": 223,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.570625",
+        "worker": 7,
+        "step": 224,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.575594",
+        "worker": 1,
+        "step": 236,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.583638",
+        "worker": 6,
+        "step": 204,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.595151",
+        "worker": 12,
+        "step": 205,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.598888",
+        "worker": 23,
+        "step": 188,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.600270",
+        "worker": 23,
+        "step": 204,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.600590",
+        "worker": 19,
+        "step": 125,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.601509",
+        "worker": 19,
+        "step": 139,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.602945",
+        "worker": 4,
+        "step": 308,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.604169",
+        "worker": 30,
+        "step": 19,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.611605",
+        "worker": 24,
+        "step": 145,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.613592",
+        "worker": 5,
+        "step": 241,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.616000",
+        "worker": 17,
+        "step": 172,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.622963",
+        "worker": 2,
+        "step": 202,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.623793",
+        "worker": 2,
+        "step": 212,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.624210",
+        "worker": 2,
+        "step": 218,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.628510",
+        "worker": 0,
+        "step": 256,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.634082",
+        "worker": 4,
+        "step": 323,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.636485",
+        "worker": 18,
+        "step": 132,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.642508",
+        "worker": 24,
+        "step": 170,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.644447",
+        "worker": 25,
+        "step": 100,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.650382",
+        "worker": 18,
+        "step": 141,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.651746",
+        "worker": 22,
+        "step": 210,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.652319",
+        "worker": 12,
+        "step": 236,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.657426",
+        "worker": 21,
+        "step": 171,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.667110",
+        "worker": 14,
+        "step": 156,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.668164",
+        "worker": 29,
+        "step": 75,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.674894",
+        "worker": 20,
+        "step": 242,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.677900",
+        "worker": 25,
+        "step": 125,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.679610",
+        "worker": 10,
+        "step": 334,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.680767",
+        "worker": 0,
+        "step": 262,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.683525",
+        "worker": 24,
+        "step": 193,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.685117",
+        "worker": 30,
+        "step": 41,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.686435",
+        "worker": 30,
+        "step": 54,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.687563",
+        "worker": 4,
+        "step": 358,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.694455",
+        "worker": 8,
+        "step": 261,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.694986",
+        "worker": 14,
+        "step": 163,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.696803",
+        "worker": 17,
+        "step": 205,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.697955",
+        "worker": 22,
+        "step": 222,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.698402",
+        "worker": 22,
+        "step": 224,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.719590",
+        "worker": 25,
+        "step": 139,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.721452",
+        "worker": 24,
+        "step": 216,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.732179",
+        "worker": 1,
+        "step": 318,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.740548",
+        "worker": 19,
+        "step": 166,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.742172",
+        "worker": 2,
+        "step": 270,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.743285",
+        "worker": 1,
+        "step": 326,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.749784",
+        "worker": 25,
+        "step": 151,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.754865",
+        "worker": 16,
+        "step": 145,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.755213",
+        "worker": 16,
+        "step": 150,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.758184",
+        "worker": 6,
+        "step": 251,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.761923",
+        "worker": 24,
+        "step": 220,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.765280",
+        "worker": 32,
+        "step": 108,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.765516",
+        "worker": 32,
+        "step": 111,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.769273",
+        "worker": 35,
+        "step": 13,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.770009",
+        "worker": 35,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.771580",
+        "worker": 35,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.773420",
+        "worker": 28,
+        "step": 76,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.776540",
+        "worker": 21,
+        "step": 223,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.779290",
+        "worker": 8,
+        "step": 327,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.782750",
+        "worker": 17,
+        "step": 238,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.784682",
+        "worker": 3,
+        "step": 357,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.785088",
+        "worker": 3,
+        "step": 362,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.787446",
+        "worker": 23,
+        "step": 281,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.791103",
+        "worker": 32,
+        "step": 141,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.794727",
+        "worker": 18,
+        "step": 184,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.796716",
+        "worker": 10,
+        "step": 384,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.797351",
+        "worker": 10,
+        "step": 393,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.802788",
+        "worker": 20,
+        "step": 264,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.808213",
+        "worker": 34,
+        "step": 33,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.817781",
+        "worker": 28,
+        "step": 94,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.821560",
+        "worker": 23,
+        "step": 308,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.822945",
+        "worker": 25,
+        "step": 176,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.825343",
+        "worker": 20,
+        "step": 271,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.828253",
+        "worker": 15,
+        "step": 285,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.844019",
+        "worker": 3,
+        "step": 382,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.850263",
+        "worker": 30,
+        "step": 121,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.851173",
+        "worker": 30,
+        "step": 131,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.856436",
+        "worker": 19,
+        "step": 210,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.858303",
+        "worker": 8,
+        "step": 330,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.862504",
+        "worker": 16,
+        "step": 185,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.862657",
+        "worker": 16,
+        "step": 187,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.866771",
+        "worker": 7,
+        "step": 335,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.871422",
+        "worker": 22,
+        "step": 267,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.879061",
+        "worker": 40,
+        "step": 84,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.880061",
+        "worker": 6,
+        "step": 261,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.887241",
+        "worker": 36,
+        "step": 50,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.888096",
+        "worker": 8,
+        "step": 352,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.897116",
+        "worker": 15,
+        "step": 288,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.905480",
+        "worker": 41,
+        "step": 35,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.906542",
+        "worker": 9,
+        "step": 146,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.907273",
+        "worker": 16,
+        "step": 210,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.911122",
+        "worker": 22,
+        "step": 300,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.916186",
+        "worker": 19,
+        "step": 224,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.921043",
+        "worker": 30,
+        "step": 187,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.927473",
+        "worker": 19,
+        "step": 237,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.931830",
+        "worker": 0,
+        "step": 319,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.935648",
+        "worker": 4,
+        "step": 416,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.940573",
+        "worker": 33,
+        "step": 122,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.941626",
+        "worker": 32,
+        "step": 201,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.946745",
+        "worker": 22,
+        "step": 317,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.952649",
+        "worker": 20,
+        "step": 310,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.954808",
+        "worker": 46,
+        "step": 21,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.957744",
+        "worker": 47,
+        "step": 4,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.963827",
+        "worker": 14,
+        "step": 285,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.969521",
+        "worker": 3,
+        "step": 436,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.970448",
+        "worker": 23,
+        "step": 385,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:36.971864",
+        "worker": 27,
+        "step": 271,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.975746",
+        "worker": 10,
+        "step": 438,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.978757",
+        "worker": 18,
+        "step": 235,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.981037",
+        "worker": 40,
+        "step": 102,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.992082",
+        "worker": 11,
+        "step": 293,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.992275",
+        "worker": 10,
+        "step": 444,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:36.998791",
+        "worker": 24,
+        "step": 235,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.000719",
+        "worker": 9,
+        "step": 157,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.006140",
+        "worker": 45,
+        "step": 53,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.014404",
+        "worker": 17,
+        "step": 263,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.030533",
+        "worker": 46,
+        "step": 87,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.036164",
+        "worker": 29,
+        "step": 122,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.036284",
+        "worker": 29,
+        "step": 124,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.038679",
+        "worker": 25,
+        "step": 226,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.043769",
+        "worker": 45,
+        "step": 89,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.048906",
+        "worker": 43,
+        "step": 126,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.051224",
+        "worker": 46,
+        "step": 95,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.062851",
+        "worker": 43,
+        "step": 149,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.070838",
+        "worker": 31,
+        "step": 123,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.077262",
+        "worker": 29,
+        "step": 157,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.077671",
+        "worker": 29,
+        "step": 164,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.080484",
+        "worker": 37,
+        "step": 103,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.083884",
+        "worker": 32,
+        "step": 215,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.084313",
+        "worker": 18,
+        "step": 244,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.103388",
+        "worker": 45,
+        "step": 117,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.105176",
+        "worker": 2,
+        "step": 354,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.109295",
+        "worker": 44,
+        "step": 31,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.110543",
+        "worker": 27,
+        "step": 323,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.137081",
+        "worker": 38,
+        "step": 130,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.137322",
+        "worker": 13,
+        "step": 278,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.141066",
+        "worker": 7,
+        "step": 401,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.144288",
+        "worker": 48,
+        "step": 3,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.152840",
+        "worker": 19,
+        "step": 256,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.157459",
+        "worker": 12,
+        "step": 300,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.159051",
+        "worker": 15,
+        "step": 351,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.165290",
+        "worker": 11,
+        "step": 346,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.169912",
+        "worker": 2,
+        "step": 398,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.175785",
+        "worker": 50,
+        "step": 39,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.178128",
+        "worker": 21,
+        "step": 367,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.187964",
+        "worker": 31,
+        "step": 132,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.191332",
+        "worker": 34,
+        "step": 175,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.194165",
+        "worker": 51,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.199044",
+        "worker": 40,
+        "step": 180,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.205327",
+        "worker": 41,
+        "step": 113,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.206417",
+        "worker": 45,
+        "step": 130,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.210165",
+        "worker": 9,
+        "step": 179,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.214023",
+        "worker": 46,
+        "step": 116,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.223505",
+        "worker": 41,
+        "step": 143,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.223595",
+        "worker": 41,
+        "step": 144,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.224570",
+        "worker": 3,
+        "step": 501,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.225845",
+        "worker": 22,
+        "step": 378,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.227372",
+        "worker": 38,
+        "step": 164,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.228405",
+        "worker": 38,
+        "step": 178,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.237627",
+        "worker": 53,
+        "step": 4,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.245028",
+        "worker": 1,
+        "step": 469,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.247722",
+        "worker": 45,
+        "step": 163,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.252234",
+        "worker": 28,
+        "step": 240,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.253490",
+        "worker": 13,
+        "step": 371,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.259357",
+        "worker": 48,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.259615",
+        "worker": 48,
+        "step": 43,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.265079",
+        "worker": 32,
+        "step": 255,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.266569",
+        "worker": 53,
+        "step": 11,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.269841",
+        "worker": 52,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.272929",
+        "worker": 47,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.275384",
+        "worker": 13,
+        "step": 379,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.277721",
+        "worker": 45,
+        "step": 179,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.279812",
+        "worker": 39,
+        "step": 67,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.295784",
+        "worker": 4,
+        "step": 506,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.297873",
+        "worker": 37,
+        "step": 130,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.307029",
+        "worker": 30,
+        "step": 256,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.310597",
+        "worker": 24,
+        "step": 334,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.311806",
+        "worker": 11,
+        "step": 365,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.312455",
+        "worker": 15,
+        "step": 377,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.320056",
+        "worker": 16,
+        "step": 314,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.322569",
+        "worker": 19,
+        "step": 309,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.325660",
+        "worker": 41,
+        "step": 147,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.331494",
+        "worker": 34,
+        "step": 215,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.346383",
+        "worker": 17,
+        "step": 362,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.360622",
+        "worker": 34,
+        "step": 230,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.362681",
+        "worker": 51,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.363143",
+        "worker": 33,
+        "step": 146,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.363485",
+        "worker": 41,
+        "step": 165,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.382312",
+        "worker": 27,
+        "step": 346,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.398222",
+        "worker": 36,
+        "step": 114,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.401589",
+        "worker": 25,
+        "step": 340,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.404965",
+        "worker": 41,
+        "step": 177,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.408505",
+        "worker": 40,
+        "step": 216,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.414848",
+        "worker": 47,
+        "step": 138,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.415104",
+        "worker": 47,
+        "step": 142,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.416485",
+        "worker": 21,
+        "step": 409,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.417359",
+        "worker": 21,
+        "step": 419,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.420142",
+        "worker": 16,
+        "step": 346,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.431164",
+        "worker": 18,
+        "step": 312,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.434471",
+        "worker": 35,
+        "step": 150,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.448949",
+        "worker": 34,
+        "step": 242,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      },
+      {
+        "time": "2026-05-18T14:57:37.461880",
+        "worker": 18,
+        "step": 324,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.462546",
+        "worker": 18,
+        "step": 334,
+        "error_type": "TypeError",
+        "error_msg": "'NoneType' object is not subscriptable"
+      },
+      {
+        "time": "2026-05-18T14:57:37.474453",
+        "worker": 33,
+        "step": 157,
+        "error_type": "AttributeError",
+        "error_msg": "'NoneType' object has no attribute 'get'"
+      }
+    ],
+    "mem_samples": [
+      {
+        "time": "2026-05-18T16:37:59.750756",
+        "tag": "periodic_monitor",
+        "current_mb": 2.72,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:38:19.759327",
+        "tag": "periodic_monitor",
+        "current_mb": 2.69,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:38:39.781007",
+        "tag": "periodic_monitor",
+        "current_mb": 2.71,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:38:59.796660",
+        "tag": "periodic_monitor",
+        "current_mb": 2.72,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:39:19.804963",
+        "tag": "periodic_monitor",
+        "current_mb": 2.66,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:39:39.823930",
+        "tag": "periodic_monitor",
+        "current_mb": 2.79,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:39:59.836308",
+        "tag": "periodic_monitor",
+        "current_mb": 2.82,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:40:19.845949",
+        "tag": "periodic_monitor",
+        "current_mb": 2.73,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:40:39.864966",
+        "tag": "periodic_monitor",
+        "current_mb": 2.62,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:40:59.873349",
+        "tag": "periodic_monitor",
+        "current_mb": 2.71,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:41:19.882055",
+        "tag": "periodic_monitor",
+        "current_mb": 2.61,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:41:39.895775",
+        "tag": "periodic_monitor",
+        "current_mb": 2.69,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:41:59.903325",
+        "tag": "periodic_monitor",
+        "current_mb": 2.76,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:42:19.913006",
+        "tag": "periodic_monitor",
+        "current_mb": 2.75,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:42:39.927692",
+        "tag": "periodic_monitor",
+        "current_mb": 2.68,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:42:59.936287",
+        "tag": "periodic_monitor",
+        "current_mb": 2.65,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:43:19.945887",
+        "tag": "periodic_monitor",
+        "current_mb": 2.74,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:43:39.960499",
+        "tag": "periodic_monitor",
+        "current_mb": 2.63,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:43:59.971942",
+        "tag": "periodic_monitor",
+        "current_mb": 2.76,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:44:19.978099",
+        "tag": "periodic_monitor",
+        "current_mb": 2.83,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:44:39.995728",
+        "tag": "periodic_monitor",
+        "current_mb": 2.66,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:45:00.006236",
+        "tag": "periodic_monitor",
+        "current_mb": 2.67,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:45:20.013092",
+        "tag": "periodic_monitor",
+        "current_mb": 2.73,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:45:40.030543",
+        "tag": "periodic_monitor",
+        "current_mb": 2.74,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:46:00.041675",
+        "tag": "periodic_monitor",
+        "current_mb": 2.75,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:46:20.055993",
+        "tag": "periodic_monitor",
+        "current_mb": 2.8,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:46:40.070981",
+        "tag": "periodic_monitor",
+        "current_mb": 2.7,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:47:00.079327",
+        "tag": "periodic_monitor",
+        "current_mb": 2.64,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:47:20.091765",
+        "tag": "periodic_monitor",
+        "current_mb": 2.69,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:47:40.106789",
+        "tag": "periodic_monitor",
+        "current_mb": 2.7,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:48:00.114549",
+        "tag": "periodic_monitor",
+        "current_mb": 2.74,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:48:20.124628",
+        "tag": "periodic_monitor",
+        "current_mb": 2.88,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:48:40.136176",
+        "tag": "periodic_monitor",
+        "current_mb": 2.76,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:49:00.149869",
+        "tag": "periodic_monitor",
+        "current_mb": 2.62,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:49:20.161258",
+        "tag": "periodic_monitor",
+        "current_mb": 2.7,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:49:40.175768",
+        "tag": "periodic_monitor",
+        "current_mb": 2.81,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:50:00.185465",
+        "tag": "periodic_monitor",
+        "current_mb": 2.68,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:50:20.193996",
+        "tag": "periodic_monitor",
+        "current_mb": 2.68,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:50:40.207746",
+        "tag": "periodic_monitor",
+        "current_mb": 2.67,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:51:00.219389",
+        "tag": "periodic_monitor",
+        "current_mb": 2.6,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:51:20.227846",
+        "tag": "periodic_monitor",
+        "current_mb": 2.59,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:51:40.240798",
+        "tag": "periodic_monitor",
+        "current_mb": 2.73,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:52:00.249928",
+        "tag": "periodic_monitor",
+        "current_mb": 2.76,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:52:20.258818",
+        "tag": "periodic_monitor",
+        "current_mb": 2.73,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:52:40.274172",
+        "tag": "periodic_monitor",
+        "current_mb": 2.75,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:53:00.287150",
+        "tag": "periodic_monitor",
+        "current_mb": 2.7,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:53:20.298170",
+        "tag": "periodic_monitor",
+        "current_mb": 2.77,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:53:40.313688",
+        "tag": "periodic_monitor",
+        "current_mb": 2.64,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:54:00.325544",
+        "tag": "periodic_monitor",
+        "current_mb": 2.72,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:54:20.331974",
+        "tag": "periodic_monitor",
+        "current_mb": 2.66,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:54:40.345608",
+        "tag": "periodic_monitor",
+        "current_mb": 2.65,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:55:00.354697",
+        "tag": "periodic_monitor",
+        "current_mb": 2.8,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:55:20.366895",
+        "tag": "periodic_monitor",
+        "current_mb": 2.76,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:55:40.380773",
+        "tag": "periodic_monitor",
+        "current_mb": 2.82,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:56:00.396644",
+        "tag": "periodic_monitor",
+        "current_mb": 2.7,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:56:20.405073",
+        "tag": "periodic_monitor",
+        "current_mb": 2.69,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:56:40.419284",
+        "tag": "periodic_monitor",
+        "current_mb": 2.89,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:57:00.433921",
+        "tag": "periodic_monitor",
+        "current_mb": 2.72,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:57:20.442050",
+        "tag": "periodic_monitor",
+        "current_mb": 2.65,
+        "peak_mb": 5.09
+      },
+      {
+        "time": "2026-05-18T16:57:40.445803",
+        "tag": "test_end",
+        "current_mb": 2.58,
+        "peak_mb": 5.09
+      }
+    ]
+  }
+}

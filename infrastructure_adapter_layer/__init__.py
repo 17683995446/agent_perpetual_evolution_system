@@ -8,6 +8,9 @@ Agent永续自进化运行系统 - 基础设施适配层
 from .storage_backends.memory_based_storage_adapter import (
     MemoryBasedStorageAdapter,
 )
+from .storage_backends.sqlite_based_storage_adapter import (
+    SQLiteBasedStorageAdapter,
+)
 from .storage_backends.storage_backend_factory_builder import (
     StorageBackendFactoryBuilder,
     create_storage_backend,
@@ -18,6 +21,7 @@ from .logging_framework.structured_logger_framework_implementation import (
 
 __all__ = [
     'MemoryBasedStorageAdapter',
+    'SQLiteBasedStorageAdapter',
     'StorageBackendFactoryBuilder',
     'create_storage_backend',
     'StructuredLoggerFrameworkImplementation',

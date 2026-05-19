@@ -96,6 +96,14 @@ class LRUCache:
         with self.lock:
             self.cache.clear()
 
+    def delete(self, key: str) -> bool:
+        """删除指定键的缓存"""
+        with self.lock:
+            if key in self.cache:
+                del self.cache[key]
+                return True
+            return False
+
 
 class ThreadSafeCounter:
     """线程安全计数器 - 用于限流"""

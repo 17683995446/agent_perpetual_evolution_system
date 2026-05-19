@@ -1,0 +1,784 @@
+{
+  "test_config": {
+    "duration_minutes": 5.0,
+    "workers": 40
+  },
+  "metrics": {
+    "total_ops": 2260336,
+    "success": 1719632,
+    "failed": 540704,
+    "anomalies_injected": 387157,
+    "gc_cycles": 1486,
+    "peak_memory_mb": 5.455499649047852,
+    "error_log": [
+      {
+        "time": "2026-05-17T23:41:18.327305",
+        "worker": 0,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.327522",
+        "worker": 0,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.327636",
+        "worker": 0,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.327683",
+        "worker": 0,
+        "step": 8,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.327999",
+        "worker": 1,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.328082",
+        "worker": 1,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.328700",
+        "worker": 1,
+        "step": 8,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.328749",
+        "worker": 1,
+        "step": 9,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.329585",
+        "worker": 1,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.330780",
+        "worker": 2,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.330924",
+        "worker": 2,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.331195",
+        "worker": 2,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.331495",
+        "worker": 2,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.331576",
+        "worker": 2,
+        "step": 15,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.331680",
+        "worker": 2,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.331772",
+        "worker": 2,
+        "step": 21,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.332047",
+        "worker": 2,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.332080",
+        "worker": 2,
+        "step": 26,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.332550",
+        "worker": 2,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.332901",
+        "worker": 2,
+        "step": 36,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.332947",
+        "worker": 2,
+        "step": 37,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.332991",
+        "worker": 2,
+        "step": 38,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.333352",
+        "worker": 2,
+        "step": 42,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.333605",
+        "worker": 2,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.333782",
+        "worker": 2,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.334780",
+        "worker": 2,
+        "step": 62,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.336102",
+        "worker": 4,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.336419",
+        "worker": 4,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.336485",
+        "worker": 4,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.337137",
+        "worker": 5,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.337207",
+        "worker": 5,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.337275",
+        "worker": 5,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.340537",
+        "worker": 5,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.340837",
+        "worker": 4,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.341173",
+        "worker": 4,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.341944",
+        "worker": 4,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.342022",
+        "worker": 4,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.342108",
+        "worker": 4,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.342863",
+        "worker": 2,
+        "step": 63,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.343945",
+        "worker": 0,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.344812",
+        "worker": 6,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.346584",
+        "worker": 7,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.346999",
+        "worker": 7,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.347225",
+        "worker": 7,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.347678",
+        "worker": 7,
+        "step": 8,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.347972",
+        "worker": 7,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.348451",
+        "worker": 2,
+        "step": 71,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.348489",
+        "worker": 2,
+        "step": 72,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.349411",
+        "worker": 1,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.349540",
+        "worker": 1,
+        "step": 29,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.349771",
+        "worker": 1,
+        "step": 31,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.350229",
+        "worker": 1,
+        "step": 37,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.350957",
+        "worker": 1,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.351016",
+        "worker": 1,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.351094",
+        "worker": 1,
+        "step": 47,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.351165",
+        "worker": 1,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.351223",
+        "worker": 1,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.351901",
+        "worker": 3,
+        "step": 9,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.353160",
+        "worker": 0,
+        "step": 18,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.353209",
+        "worker": 0,
+        "step": 19,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.355499",
+        "worker": 4,
+        "step": 31,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.355720",
+        "worker": 4,
+        "step": 36,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.358425",
+        "worker": 2,
+        "step": 83,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.359427",
+        "worker": 2,
+        "step": 90,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.359481",
+        "worker": 2,
+        "step": 91,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.359754",
+        "worker": 2,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.359846",
+        "worker": 2,
+        "step": 97,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.360915",
+        "worker": 3,
+        "step": 26,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.361157",
+        "worker": 3,
+        "step": 29,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.361390",
+        "worker": 3,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.361498",
+        "worker": 3,
+        "step": 35,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.361786",
+        "worker": 3,
+        "step": 38,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.361941",
+        "worker": 3,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.362066",
+        "worker": 3,
+        "step": 43,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.362336",
+        "worker": 3,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.364516",
+        "worker": 0,
+        "step": 24,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.364602",
+        "worker": 0,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.364685",
+        "worker": 0,
+        "step": 26,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.366079",
+        "worker": 0,
+        "step": 31,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.366804",
+        "worker": 4,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.366882",
+        "worker": 4,
+        "step": 50,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.367158",
+        "worker": 4,
+        "step": 53,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.367200",
+        "worker": 4,
+        "step": 54,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.367976",
+        "worker": 5,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.368765",
+        "worker": 1,
+        "step": 62,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.368880",
+        "worker": 1,
+        "step": 64,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.369250",
+        "worker": 1,
+        "step": 68,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.369412",
+        "worker": 6,
+        "step": 21,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.369693",
+        "worker": 6,
+        "step": 26,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.370141",
+        "worker": 6,
+        "step": 33,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.370424",
+        "worker": 6,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.370925",
+        "worker": 6,
+        "step": 47,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.371479",
+        "worker": 0,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.371900",
+        "worker": 7,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.371952",
+        "worker": 7,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumOptimizationSolver' object has no attribute 'schedule_tasks'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.372353",
+        "worker": 7,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumApplicationPlatform' object has no attribute 'drug'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.372742",
+        "worker": 4,
+        "step": 64,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.372789",
+        "worker": 4,
+        "step": 65,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.372850",
+        "worker": 4,
+        "step": 67,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumWeather' object has no attribute 'forecast'"
+      },
+      {
+        "time": "2026-05-17T23:41:18.373081",
+        "worker": 4,
+        "step": 70,
+        "error_type": "AttributeError",
+        "error_msg": "'IntelligentDecisionPlatform' object has no attribute 'strategic'"
+      }
+    ],
+    "mem_samples": [
+      {
+        "time": "2026-05-17T23:41:18.326317",
+        "tag": "test_start",
+        "current_mb": 0.0,
+        "peak_mb": 0.0
+      },
+      {
+        "time": "2026-05-17T23:41:48.705708",
+        "tag": "periodic_monitor",
+        "current_mb": 4.66,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:42:19.000786",
+        "tag": "periodic_monitor",
+        "current_mb": 2.54,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:42:49.125800",
+        "tag": "periodic_monitor",
+        "current_mb": 2.81,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:43:19.426225",
+        "tag": "periodic_monitor",
+        "current_mb": 2.73,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:43:49.747663",
+        "tag": "periodic_monitor",
+        "current_mb": 2.31,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:44:20.085091",
+        "tag": "periodic_monitor",
+        "current_mb": 2.29,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:44:50.414222",
+        "tag": "periodic_monitor",
+        "current_mb": 2.6,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:45:20.535966",
+        "tag": "periodic_monitor",
+        "current_mb": 2.44,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:45:50.818745",
+        "tag": "periodic_monitor",
+        "current_mb": 2.61,
+        "peak_mb": 5.46
+      },
+      {
+        "time": "2026-05-17T23:46:20.107263",
+        "tag": "test_end",
+        "current_mb": 1.77,
+        "peak_mb": 5.46
+      }
+    ]
+  }
+}

@@ -1,0 +1,1188 @@
+{
+  "test_config": {
+    "duration_minutes": 10.0,
+    "workers": 50
+  },
+  "metrics": {
+    "total_ops": 6280710,
+    "success": 5093514,
+    "failed": 1187196,
+    "anomalies_injected": 1381600,
+    "gc_cycles": 6241,
+    "peak_memory_mb": 6.225062370300293,
+    "error_log": [
+      {
+        "time": "2026-05-18T04:16:13.917542",
+        "worker": 0,
+        "step": 0,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.917918",
+        "worker": 0,
+        "step": 8,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.918243",
+        "worker": 1,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.918598",
+        "worker": 1,
+        "step": 6,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.919281",
+        "worker": 2,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.919470",
+        "worker": 2,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.920207",
+        "worker": 3,
+        "step": 1,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.920474",
+        "worker": 3,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.920563",
+        "worker": 3,
+        "step": 4,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.920924",
+        "worker": 3,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.921149",
+        "worker": 1,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.921366",
+        "worker": 1,
+        "step": 16,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.922467",
+        "worker": 5,
+        "step": 7,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.923558",
+        "worker": 6,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.923751",
+        "worker": 7,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.923797",
+        "worker": 7,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.923975",
+        "worker": 8,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.924036",
+        "worker": 8,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.924118",
+        "worker": 8,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.925728",
+        "worker": 10,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.926324",
+        "worker": 10,
+        "step": 13,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.926762",
+        "worker": 5,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.927012",
+        "worker": 5,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.927222",
+        "worker": 5,
+        "step": 24,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.927446",
+        "worker": 5,
+        "step": 31,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.927921",
+        "worker": 11,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.927962",
+        "worker": 11,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.928845",
+        "worker": 12,
+        "step": 6,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.930490",
+        "worker": 10,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.930998",
+        "worker": 10,
+        "step": 30,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.931087",
+        "worker": 10,
+        "step": 33,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.931840",
+        "worker": 2,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.932205",
+        "worker": 6,
+        "step": 6,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.932440",
+        "worker": 6,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.932604",
+        "worker": 15,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.932663",
+        "worker": 15,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.932745",
+        "worker": 15,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.933253",
+        "worker": 0,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.933662",
+        "worker": 0,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.933872",
+        "worker": 0,
+        "step": 28,
+        "error_type": "AttributeError",
+        "error_msg": "'LRUCache' object has no attribute 'delete'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.935228",
+        "worker": 4,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.935655",
+        "worker": 5,
+        "step": 33,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.935879",
+        "worker": 17,
+        "step": 1,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.935910",
+        "worker": 17,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.936726",
+        "worker": 17,
+        "step": 11,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.936847",
+        "worker": 17,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.938061",
+        "worker": 14,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.938697",
+        "worker": 18,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.940216",
+        "worker": 11,
+        "step": 8,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.941077",
+        "worker": 20,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.941188",
+        "worker": 20,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.941320",
+        "worker": 20,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.941662",
+        "worker": 7,
+        "step": 8,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.942681",
+        "worker": 12,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.944364",
+        "worker": 9,
+        "step": 8,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.945387",
+        "worker": 15,
+        "step": 12,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.945727",
+        "worker": 15,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.945803",
+        "worker": 15,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.945910",
+        "worker": 15,
+        "step": 19,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.946062",
+        "worker": 15,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.946534",
+        "worker": 6,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.946709",
+        "worker": 6,
+        "step": 16,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.947155",
+        "worker": 0,
+        "step": 33,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.950616",
+        "worker": 1,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.950666",
+        "worker": 1,
+        "step": 33,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.951040",
+        "worker": 1,
+        "step": 41,
+        "error_type": "AttributeError",
+        "error_msg": "'LRUCache' object has no attribute 'delete'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.951570",
+        "worker": 0,
+        "step": 38,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.951665",
+        "worker": 0,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.951753",
+        "worker": 0,
+        "step": 42,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.952000",
+        "worker": 12,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.952039",
+        "worker": 12,
+        "step": 15,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.952090",
+        "worker": 12,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.952778",
+        "worker": 18,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.954540",
+        "worker": 19,
+        "step": 4,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.954594",
+        "worker": 19,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.954625",
+        "worker": 19,
+        "step": 6,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.954675",
+        "worker": 19,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.954810",
+        "worker": 19,
+        "step": 11,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.955062",
+        "worker": 19,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.955879",
+        "worker": 23,
+        "step": 6,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.955920",
+        "worker": 23,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.956098",
+        "worker": 24,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.956621",
+        "worker": 9,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'LRUCache' object has no attribute 'delete'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.956998",
+        "worker": 25,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.958829",
+        "worker": 26,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.960024",
+        "worker": 14,
+        "step": 18,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.960441",
+        "worker": 12,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.960582",
+        "worker": 12,
+        "step": 22,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.960626",
+        "worker": 12,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.961365",
+        "worker": 5,
+        "step": 40,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.961444",
+        "worker": 5,
+        "step": 42,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.961623",
+        "worker": 5,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.961766",
+        "worker": 5,
+        "step": 48,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.962415",
+        "worker": 5,
+        "step": 59,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.962797",
+        "worker": 5,
+        "step": 63,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.963718",
+        "worker": 9,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.963866",
+        "worker": 9,
+        "step": 18,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.963912",
+        "worker": 9,
+        "step": 19,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.964082",
+        "worker": 9,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.964595",
+        "worker": 23,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.964842",
+        "worker": 7,
+        "step": 11,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.965140",
+        "worker": 20,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.965559",
+        "worker": 18,
+        "step": 12,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.967613",
+        "worker": 13,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.968991",
+        "worker": 27,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.969040",
+        "worker": 27,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.969144",
+        "worker": 27,
+        "step": 7,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.969878",
+        "worker": 28,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.970180",
+        "worker": 4,
+        "step": 8,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.971311",
+        "worker": 8,
+        "step": 19,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.971832",
+        "worker": 3,
+        "step": 23,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.972641",
+        "worker": 1,
+        "step": 52,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.972694",
+        "worker": 1,
+        "step": 53,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.972749",
+        "worker": 1,
+        "step": 54,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.973094",
+        "worker": 1,
+        "step": 59,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.973933",
+        "worker": 29,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.973985",
+        "worker": 29,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.974235",
+        "worker": 29,
+        "step": 9,
+        "error_type": "AttributeError",
+        "error_msg": "'LRUCache' object has no attribute 'delete'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.974329",
+        "worker": 29,
+        "step": 10,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.974418",
+        "worker": 29,
+        "step": 11,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.974828",
+        "worker": 16,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.974903",
+        "worker": 16,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.975018",
+        "worker": 16,
+        "step": 15,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.975916",
+        "worker": 10,
+        "step": 43,
+        "error_type": "AttributeError",
+        "error_msg": "'LRUCache' object has no attribute 'delete'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.977188",
+        "worker": 22,
+        "step": 11,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.977234",
+        "worker": 22,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.977453",
+        "worker": 22,
+        "step": 15,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.978105",
+        "worker": 22,
+        "step": 23,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.978338",
+        "worker": 25,
+        "step": 21,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.978465",
+        "worker": 25,
+        "step": 24,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.978509",
+        "worker": 25,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.979598",
+        "worker": 12,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.979975",
+        "worker": 12,
+        "step": 37,
+        "error_type": "AttributeError",
+        "error_msg": "'LRUCache' object has no attribute 'delete'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.980019",
+        "worker": 12,
+        "step": 38,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.980109",
+        "worker": 12,
+        "step": 39,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.980805",
+        "worker": 30,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.981225",
+        "worker": 30,
+        "step": 11,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.982321",
+        "worker": 2,
+        "step": 34,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIVisionSystem' object has no attribute 'classify_image'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.982469",
+        "worker": 2,
+        "step": 38,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.982663",
+        "worker": 2,
+        "step": 40,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.982725",
+        "worker": 2,
+        "step": 41,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.984343",
+        "worker": 1,
+        "step": 65,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.984435",
+        "worker": 1,
+        "step": 66,
+        "error_type": "TypeError",
+        "error_msg": "QuantumChemistry.simulate_molecule() missing 1 required positional argument: 'num_electrons'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.984483",
+        "worker": 1,
+        "step": 67,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.984780",
+        "worker": 1,
+        "step": 75,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.986242",
+        "worker": 21,
+        "step": 9,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.986680",
+        "worker": 9,
+        "step": 31,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.986727",
+        "worker": 9,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'RealTimeOptimizer' object has no attribute 'optimize'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.987036",
+        "worker": 12,
+        "step": 43,
+        "error_type": "AttributeError",
+        "error_msg": "'AGIApplicationFramework' object has no attribute 'speech'"
+      },
+      {
+        "time": "2026-05-18T04:16:13.987650",
+        "worker": 12,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'optimize_grid'"
+      }
+    ],
+    "mem_samples": [
+      {
+        "time": "2026-05-18T04:19:55.281919",
+        "tag": "periodic_monitor",
+        "current_mb": 4.13,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:20:15.484017",
+        "tag": "periodic_monitor",
+        "current_mb": 4.06,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:20:35.705195",
+        "tag": "periodic_monitor",
+        "current_mb": 2.51,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:20:55.828535",
+        "tag": "periodic_monitor",
+        "current_mb": 2.92,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:21:15.933518",
+        "tag": "periodic_monitor",
+        "current_mb": 3.92,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:21:36.075320",
+        "tag": "periodic_monitor",
+        "current_mb": 4.38,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:21:56.163236",
+        "tag": "periodic_monitor",
+        "current_mb": 3.92,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:22:16.283348",
+        "tag": "periodic_monitor",
+        "current_mb": 2.39,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:22:36.479116",
+        "tag": "periodic_monitor",
+        "current_mb": 4.25,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:22:56.675047",
+        "tag": "periodic_monitor",
+        "current_mb": 4.93,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:23:16.801090",
+        "tag": "periodic_monitor",
+        "current_mb": 3.76,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:23:37.038404",
+        "tag": "periodic_monitor",
+        "current_mb": 3.2,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:23:57.240435",
+        "tag": "periodic_monitor",
+        "current_mb": 3.97,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:24:17.446969",
+        "tag": "periodic_monitor",
+        "current_mb": 4.6,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:24:37.614163",
+        "tag": "periodic_monitor",
+        "current_mb": 4.6,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:24:57.762769",
+        "tag": "periodic_monitor",
+        "current_mb": 3.96,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:25:18.028037",
+        "tag": "periodic_monitor",
+        "current_mb": 4.23,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:25:38.155888",
+        "tag": "periodic_monitor",
+        "current_mb": 3.88,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:25:58.339148",
+        "tag": "periodic_monitor",
+        "current_mb": 3.68,
+        "peak_mb": 6.23
+      },
+      {
+        "time": "2026-05-18T04:26:15.437015",
+        "tag": "test_end",
+        "current_mb": 2.17,
+        "peak_mb": 6.23
+      }
+    ]
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "test_config": {
+    "duration_minutes": 5.0,
+    "workers": 40
+  },
+  "metrics": {
+    "total_ops": 2015585,
+    "success": 1902411,
+    "failed": 113174,
+    "anomalies_injected": 373740,
+    "gc_cycles": 1324,
+    "peak_memory_mb": 6.057208061218262,
+    "error_log": [
+      {
+        "time": "2026-05-17T23:53:20.281649",
+        "worker": -1,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.282830",
+        "worker": 0,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.283753",
+        "worker": 1,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.284615",
+        "worker": 1,
+        "step": 6,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.285214",
+        "worker": 1,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.287357",
+        "worker": 2,
+        "step": 6,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.291183",
+        "worker": 0,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.293335",
+        "worker": 0,
+        "step": 24,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.297688",
+        "worker": 2,
+        "step": 30,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.298143",
+        "worker": 2,
+        "step": 34,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.302797",
+        "worker": 1,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.303793",
+        "worker": 1,
+        "step": 24,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.305090",
+        "worker": 1,
+        "step": 29,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.308339",
+        "worker": 0,
+        "step": 39,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.313545",
+        "worker": 1,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.316559",
+        "worker": 1,
+        "step": 54,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.319546",
+        "worker": 3,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.320587",
+        "worker": 5,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.321654",
+        "worker": 3,
+        "step": 26,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.329011",
+        "worker": 4,
+        "step": 9,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.332314",
+        "worker": 1,
+        "step": 67,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.337544",
+        "worker": 4,
+        "step": 29,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.337804",
+        "worker": 3,
+        "step": 36,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.339880",
+        "worker": 5,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.342461",
+        "worker": 7,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.343899",
+        "worker": 6,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.353169",
+        "worker": 7,
+        "step": 56,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.353808",
+        "worker": 1,
+        "step": 85,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.354288",
+        "worker": 4,
+        "step": 36,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.355280",
+        "worker": 4,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.358543",
+        "worker": 2,
+        "step": 60,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.368042",
+        "worker": 4,
+        "step": 55,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.370844",
+        "worker": 1,
+        "step": 87,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.373244",
+        "worker": 7,
+        "step": 62,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.374112",
+        "worker": 7,
+        "step": 70,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.380438",
+        "worker": 9,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.381284",
+        "worker": 6,
+        "step": 43,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.382858",
+        "worker": 6,
+        "step": 54,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.383213",
+        "worker": 6,
+        "step": 58,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.383412",
+        "worker": 6,
+        "step": 60,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.385689",
+        "worker": 3,
+        "step": 64,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.387346",
+        "worker": 7,
+        "step": 94,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.387407",
+        "worker": 7,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.388402",
+        "worker": 7,
+        "step": 106,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.388895",
+        "worker": 7,
+        "step": 109,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.391033",
+        "worker": 1,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.393282",
+        "worker": 7,
+        "step": 122,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.394007",
+        "worker": 7,
+        "step": 128,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.394470",
+        "worker": 5,
+        "step": 75,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.396077",
+        "worker": 1,
+        "step": 110,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.397125",
+        "worker": 4,
+        "step": 66,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.400626",
+        "worker": 8,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.401385",
+        "worker": 2,
+        "step": 101,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.401435",
+        "worker": 2,
+        "step": 103,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.403540",
+        "worker": 9,
+        "step": 19,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.404734",
+        "worker": 9,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.405827",
+        "worker": 9,
+        "step": 34,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.409600",
+        "worker": 2,
+        "step": 112,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.410437",
+        "worker": 2,
+        "step": 122,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.415448",
+        "worker": 6,
+        "step": 65,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.417623",
+        "worker": 6,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.418102",
+        "worker": 6,
+        "step": 99,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.418315",
+        "worker": 6,
+        "step": 102,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.418566",
+        "worker": 6,
+        "step": 105,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.418617",
+        "worker": 6,
+        "step": 106,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.430461",
+        "worker": 4,
+        "step": 89,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.430838",
+        "worker": 4,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.434761",
+        "worker": 3,
+        "step": 93,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.436281",
+        "worker": 9,
+        "step": 38,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.438150",
+        "worker": 7,
+        "step": 170,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.443157",
+        "worker": 9,
+        "step": 42,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.445139",
+        "worker": 3,
+        "step": 99,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.445387",
+        "worker": 1,
+        "step": 138,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.447949",
+        "worker": 0,
+        "step": 121,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.448775",
+        "worker": 0,
+        "step": 130,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.452030",
+        "worker": 8,
+        "step": 38,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.452194",
+        "worker": 8,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.453509",
+        "worker": 2,
+        "step": 145,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.455215",
+        "worker": 0,
+        "step": 140,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.455768",
+        "worker": 0,
+        "step": 144,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.456000",
+        "worker": 11,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.457980",
+        "worker": 3,
+        "step": 109,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.459197",
+        "worker": 1,
+        "step": 140,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.459717",
+        "worker": 1,
+        "step": 142,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.461526",
+        "worker": 6,
+        "step": 137,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.477372",
+        "worker": 6,
+        "step": 142,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.479073",
+        "worker": 2,
+        "step": 150,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.484353",
+        "worker": 3,
+        "step": 128,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.485042",
+        "worker": 10,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.487340",
+        "worker": 9,
+        "step": 91,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.487539",
+        "worker": 9,
+        "step": 95,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.489720",
+        "worker": 8,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.491794",
+        "worker": 4,
+        "step": 116,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.495405",
+        "worker": 6,
+        "step": 163,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.495961",
+        "worker": 6,
+        "step": 169,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.497110",
+        "worker": 13,
+        "step": 6,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.497163",
+        "worker": 13,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.504005",
+        "worker": 9,
+        "step": 105,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.507758",
+        "worker": 0,
+        "step": 182,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      },
+      {
+        "time": "2026-05-17T23:53:20.510929",
+        "worker": 1,
+        "step": 163,
+        "error_type": "AttributeError",
+        "error_msg": "'StrategicPlanner' object has no attribute 'plan_generation'"
+      }
+    ],
+    "mem_samples": [
+      {
+        "time": "2026-05-17T23:53:20.281530",
+        "tag": "test_start",
+        "current_mb": 0.0,
+        "peak_mb": 0.0
+      },
+      {
+        "time": "2026-05-17T23:53:50.449788",
+        "tag": "periodic_monitor",
+        "current_mb": 2.24,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:54:20.773468",
+        "tag": "periodic_monitor",
+        "current_mb": 2.27,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:54:50.862071",
+        "tag": "periodic_monitor",
+        "current_mb": 1.79,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:55:20.928593",
+        "tag": "periodic_monitor",
+        "current_mb": 2.25,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:55:51.004998",
+        "tag": "periodic_monitor",
+        "current_mb": 1.78,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:56:21.288080",
+        "tag": "periodic_monitor",
+        "current_mb": 1.9,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:56:51.380099",
+        "tag": "periodic_monitor",
+        "current_mb": 1.93,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:57:21.505467",
+        "tag": "periodic_monitor",
+        "current_mb": 2.37,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:57:51.586772",
+        "tag": "periodic_monitor",
+        "current_mb": 1.77,
+        "peak_mb": 6.06
+      },
+      {
+        "time": "2026-05-17T23:58:21.677393",
+        "tag": "test_end",
+        "current_mb": 1.57,
+        "peak_mb": 6.06
+      }
+    ]
+  }
+}

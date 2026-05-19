@@ -17,6 +17,9 @@ from ...configuration_management_layer.application_global_settings import (
 from .memory_based_storage_adapter import (
     MemoryBasedStorageAdapter,
 )
+from .sqlite_based_storage_adapter import (
+    SQLiteBasedStorageAdapter,
+)
 
 
 class StorageBackendFactoryBuilder:
@@ -30,6 +33,7 @@ class StorageBackendFactoryBuilder:
     # 存储后端注册表
     _storage_backend_registry: Dict[str, Type[CoreStorageInterfaceContract]] = {
         "memory": MemoryBasedStorageAdapter,
+        "sqlite": SQLiteBasedStorageAdapter,
     }
     
     @classmethod
@@ -50,7 +54,13 @@ class StorageBackendFactoryBuilder:
             backend_type = "memory"
         
         storage_class = cls._storage_backend_registry[backend_type]
-        return storage_class()
+        
+        if backend_type == "sqlite":
+            # SQLite 存储需要额外参数
+            return storage_class(database_path=settings.DATABASE_FILE_PATH)
+        else:
+            # 其他存储（如内存）不需要参数
+            return storage_class()
     
     @classmethod
     def register_new_storage_backend(cls, backend_name: str, backend_class: Type[CoreStorageInterfaceContract]):

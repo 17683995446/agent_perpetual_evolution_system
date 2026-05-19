@@ -22,6 +22,7 @@ from .configuration_management_layer import (
 
 from .infrastructure_adapter_layer import (
     MemoryBasedStorageAdapter,
+    SQLiteBasedStorageAdapter,
     StorageBackendFactoryBuilder,
     create_storage_backend,
     StructuredLoggerFrameworkImplementation,
@@ -69,6 +70,7 @@ __all__ = [
     
     # 基础设施层
     "MemoryBasedStorageAdapter",
+    "SQLiteBasedStorageAdapter",
     "StorageBackendFactoryBuilder",
     "create_storage_backend",
     "StructuredLoggerFrameworkImplementation",

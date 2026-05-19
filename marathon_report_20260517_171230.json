@@ -1,0 +1,784 @@
+{
+  "test_config": {
+    "duration_minutes": 5.0,
+    "workers": 30
+  },
+  "metrics": {
+    "total_ops": 3774515,
+    "success": 3527653,
+    "failed": 246862,
+    "anomalies_injected": 566477,
+    "gc_cycles": 1868,
+    "peak_memory_mb": 4.752331733703613,
+    "error_log": [
+      {
+        "time": "2026-05-17T17:07:29.176323",
+        "worker": 4,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.176740",
+        "worker": 4,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.177370",
+        "worker": 0,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.178342",
+        "worker": 5,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.180213",
+        "worker": 7,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.180246",
+        "worker": 7,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.181350",
+        "worker": 1,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.181685",
+        "worker": 1,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.182332",
+        "worker": 9,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.186557",
+        "worker": 12,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.188340",
+        "worker": 12,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.188450",
+        "worker": 12,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.188889",
+        "worker": 12,
+        "step": 36,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.190626",
+        "worker": 4,
+        "step": 24,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.192605",
+        "worker": 10,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.193087",
+        "worker": 10,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.193428",
+        "worker": 10,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.193496",
+        "worker": 10,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.195280",
+        "worker": 11,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.195404",
+        "worker": 11,
+        "step": 15,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.195532",
+        "worker": 11,
+        "step": 18,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.199263",
+        "worker": 8,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.199423",
+        "worker": 8,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.201028",
+        "worker": 14,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.201348",
+        "worker": 14,
+        "step": 11,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.201476",
+        "worker": 14,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.203961",
+        "worker": 13,
+        "step": 14,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.204144",
+        "worker": 13,
+        "step": 19,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.204246",
+        "worker": 13,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.204848",
+        "worker": 17,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.205832",
+        "worker": 15,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.207124",
+        "worker": 0,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.207372",
+        "worker": 0,
+        "step": 51,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.212125",
+        "worker": 18,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.212274",
+        "worker": 18,
+        "step": 8,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.213378",
+        "worker": 10,
+        "step": 55,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.213710",
+        "worker": 10,
+        "step": 63,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.214108",
+        "worker": 1,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.214227",
+        "worker": 1,
+        "step": 50,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.216231",
+        "worker": 8,
+        "step": 33,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.216901",
+        "worker": 9,
+        "step": 18,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.217679",
+        "worker": 19,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.220732",
+        "worker": 11,
+        "step": 35,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.220944",
+        "worker": 11,
+        "step": 39,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.222316",
+        "worker": 12,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.223452",
+        "worker": 3,
+        "step": 37,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.224434",
+        "worker": 10,
+        "step": 69,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.224759",
+        "worker": 4,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.225144",
+        "worker": 4,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.227707",
+        "worker": 2,
+        "step": 28,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.227758",
+        "worker": 2,
+        "step": 30,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.228199",
+        "worker": 7,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.229874",
+        "worker": 12,
+        "step": 55,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.229960",
+        "worker": 12,
+        "step": 57,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.230688",
+        "worker": 21,
+        "step": 2,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.230824",
+        "worker": 18,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.232461",
+        "worker": 19,
+        "step": 7,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.233662",
+        "worker": 5,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.235831",
+        "worker": 11,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.236703",
+        "worker": 6,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.238943",
+        "worker": 17,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.239318",
+        "worker": 5,
+        "step": 41,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.241292",
+        "worker": 4,
+        "step": 61,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.242506",
+        "worker": 12,
+        "step": 70,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.243067",
+        "worker": 9,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.243103",
+        "worker": 9,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.245477",
+        "worker": 13,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.246754",
+        "worker": 5,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.246867",
+        "worker": 15,
+        "step": 28,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.248195",
+        "worker": 24,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.249401",
+        "worker": 5,
+        "step": 50,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.250783",
+        "worker": 7,
+        "step": 34,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.252850",
+        "worker": 0,
+        "step": 71,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.256221",
+        "worker": 14,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.257839",
+        "worker": 8,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.258949",
+        "worker": 22,
+        "step": 4,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.259163",
+        "worker": 12,
+        "step": 76,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.259581",
+        "worker": 12,
+        "step": 86,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.260923",
+        "worker": 10,
+        "step": 86,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.261061",
+        "worker": 10,
+        "step": 89,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.261696",
+        "worker": 3,
+        "step": 63,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.263633",
+        "worker": 5,
+        "step": 84,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.264453",
+        "worker": 24,
+        "step": 9,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.264557",
+        "worker": 24,
+        "step": 12,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.264877",
+        "worker": 24,
+        "step": 19,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.265931",
+        "worker": 20,
+        "step": 10,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.268263",
+        "worker": 19,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.268703",
+        "worker": 21,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.269134",
+        "worker": 21,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.269166",
+        "worker": 21,
+        "step": 50,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.270831",
+        "worker": 4,
+        "step": 78,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.272591",
+        "worker": 6,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.274209",
+        "worker": 23,
+        "step": 28,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.274950",
+        "worker": 23,
+        "step": 47,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.276038",
+        "worker": 18,
+        "step": 53,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.276119",
+        "worker": 18,
+        "step": 55,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.276403",
+        "worker": 18,
+        "step": 59,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.276489",
+        "worker": 18,
+        "step": 61,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.278254",
+        "worker": 11,
+        "step": 65,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      },
+      {
+        "time": "2026-05-17T17:07:29.278325",
+        "worker": 11,
+        "step": 67,
+        "error_type": "AttributeError",
+        "error_msg": "'QuantumFinance' object has no attribute 'portfolio_optimization'"
+      }
+    ],
+    "mem_samples": [
+      {
+        "time": "2026-05-17T17:07:29.171276",
+        "tag": "test_start",
+        "current_mb": 0.0,
+        "peak_mb": 0.0
+      },
+      {
+        "time": "2026-05-17T17:07:59.274740",
+        "tag": "periodic_monitor",
+        "current_mb": 1.74,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:08:29.388559",
+        "tag": "periodic_monitor",
+        "current_mb": 1.64,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:08:59.529532",
+        "tag": "periodic_monitor",
+        "current_mb": 2.82,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:09:29.644503",
+        "tag": "periodic_monitor",
+        "current_mb": 1.59,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:09:59.787099",
+        "tag": "periodic_monitor",
+        "current_mb": 3.13,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:10:29.928786",
+        "tag": "periodic_monitor",
+        "current_mb": 2.1,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:11:00.022842",
+        "tag": "periodic_monitor",
+        "current_mb": 1.9,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:11:30.140604",
+        "tag": "periodic_monitor",
+        "current_mb": 2.24,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:12:00.292813",
+        "tag": "periodic_monitor",
+        "current_mb": 1.94,
+        "peak_mb": 4.75
+      },
+      {
+        "time": "2026-05-17T17:12:30.434971",
+        "tag": "test_end",
+        "current_mb": 1.95,
+        "peak_mb": 4.75
+      }
+    ]
+  }
+}

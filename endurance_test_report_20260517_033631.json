@@ -1,0 +1,63 @@
+{
+  "test_duration_seconds": 90.0,
+  "metrics": {
+    "start_time": 1778988901.775952,
+    "end_time": 1778988991.838134,
+    "total_operations": 118109,
+    "successful_operations": 118110,
+    "failed_operations": 0,
+    "error_log": [],
+    "memory_usage_history": [
+      {
+        "timestamp": "2026-05-17T03:35:01.775955",
+        "stage": "start",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:35:11.777512",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:35:21.779160",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:35:31.780540",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:35:41.782079",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:35:51.784502",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:36:01.786853",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:36:11.788135",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:36:21.790610",
+        "stage": "monitor",
+        "memory_mb": 48.90234375
+      },
+      {
+        "timestamp": "2026-05-17T03:36:31.838141",
+        "stage": "end",
+        "memory_mb": 48.90234375
+      }
+    ]
+  }
+}

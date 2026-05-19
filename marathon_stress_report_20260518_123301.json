@@ -1,0 +1,318 @@
+{
+  "test_config": {
+    "duration_minutes": 70.0,
+    "workers": 80,
+    "anomaly_rate": 0.4
+  },
+  "metrics": {
+    "total_ops": 31457516,
+    "success": 31457516,
+    "failed": 0,
+    "anomalies_injected": 12581555,
+    "gc_cycles": 31311,
+    "peak_memory_mb": 7.817609786987305,
+    "error_log": [],
+    "mem_samples": [
+      {
+        "time": "2026-05-18T12:16:40.796020",
+        "tag": "periodic_monitor",
+        "current_mb": 2.3,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:17:00.809798",
+        "tag": "periodic_monitor",
+        "current_mb": 2.43,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:17:20.820845",
+        "tag": "periodic_monitor",
+        "current_mb": 2.47,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:17:40.831370",
+        "tag": "periodic_monitor",
+        "current_mb": 2.49,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:18:00.842314",
+        "tag": "periodic_monitor",
+        "current_mb": 2.37,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:18:20.851504",
+        "tag": "periodic_monitor",
+        "current_mb": 2.41,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:18:40.866765",
+        "tag": "periodic_monitor",
+        "current_mb": 2.29,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:19:00.877327",
+        "tag": "periodic_monitor",
+        "current_mb": 2.38,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:19:20.886892",
+        "tag": "periodic_monitor",
+        "current_mb": 2.29,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:19:40.896177",
+        "tag": "periodic_monitor",
+        "current_mb": 2.43,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:20:00.909324",
+        "tag": "periodic_monitor",
+        "current_mb": 2.37,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:20:20.917432",
+        "tag": "periodic_monitor",
+        "current_mb": 2.51,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:20:40.929354",
+        "tag": "periodic_monitor",
+        "current_mb": 2.36,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:21:00.945855",
+        "tag": "periodic_monitor",
+        "current_mb": 2.36,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:21:20.955181",
+        "tag": "periodic_monitor",
+        "current_mb": 2.4,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:21:40.962687",
+        "tag": "periodic_monitor",
+        "current_mb": 2.29,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:22:00.979962",
+        "tag": "periodic_monitor",
+        "current_mb": 2.37,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:22:20.987462",
+        "tag": "periodic_monitor",
+        "current_mb": 2.47,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:22:41.000722",
+        "tag": "periodic_monitor",
+        "current_mb": 2.5,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:23:01.014617",
+        "tag": "periodic_monitor",
+        "current_mb": 2.34,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:23:21.025601",
+        "tag": "periodic_monitor",
+        "current_mb": 2.47,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:23:41.037726",
+        "tag": "periodic_monitor",
+        "current_mb": 2.45,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:24:01.051181",
+        "tag": "periodic_monitor",
+        "current_mb": 2.33,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:24:21.058642",
+        "tag": "periodic_monitor",
+        "current_mb": 2.56,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:24:41.068628",
+        "tag": "periodic_monitor",
+        "current_mb": 2.4,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:25:01.090230",
+        "tag": "periodic_monitor",
+        "current_mb": 2.33,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:25:21.098861",
+        "tag": "periodic_monitor",
+        "current_mb": 2.41,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:25:41.105969",
+        "tag": "periodic_monitor",
+        "current_mb": 2.62,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:26:01.117241",
+        "tag": "periodic_monitor",
+        "current_mb": 2.37,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:26:21.129059",
+        "tag": "periodic_monitor",
+        "current_mb": 2.42,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:26:41.138981",
+        "tag": "periodic_monitor",
+        "current_mb": 2.52,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:27:01.154605",
+        "tag": "periodic_monitor",
+        "current_mb": 2.45,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:27:21.162809",
+        "tag": "periodic_monitor",
+        "current_mb": 2.38,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:27:41.170147",
+        "tag": "periodic_monitor",
+        "current_mb": 2.37,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:28:01.185756",
+        "tag": "periodic_monitor",
+        "current_mb": 2.39,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:28:21.193672",
+        "tag": "periodic_monitor",
+        "current_mb": 2.5,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:28:41.206764",
+        "tag": "periodic_monitor",
+        "current_mb": 2.47,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:29:01.222730",
+        "tag": "periodic_monitor",
+        "current_mb": 2.59,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:29:21.230215",
+        "tag": "periodic_monitor",
+        "current_mb": 2.45,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:29:41.237880",
+        "tag": "periodic_monitor",
+        "current_mb": 2.32,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:30:01.250028",
+        "tag": "periodic_monitor",
+        "current_mb": 2.39,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:30:21.262183",
+        "tag": "periodic_monitor",
+        "current_mb": 2.44,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:30:41.273684",
+        "tag": "periodic_monitor",
+        "current_mb": 2.61,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:31:01.286132",
+        "tag": "periodic_monitor",
+        "current_mb": 2.34,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:31:21.300543",
+        "tag": "periodic_monitor",
+        "current_mb": 2.4,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:31:41.317769",
+        "tag": "periodic_monitor",
+        "current_mb": 2.49,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:32:01.328326",
+        "tag": "periodic_monitor",
+        "current_mb": 2.62,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:32:21.337236",
+        "tag": "periodic_monitor",
+        "current_mb": 2.44,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:32:41.347957",
+        "tag": "periodic_monitor",
+        "current_mb": 2.38,
+        "peak_mb": 7.82
+      },
+      {
+        "time": "2026-05-18T12:33:01.351177",
+        "tag": "test_end",
+        "current_mb": 2.29,
+        "peak_mb": 7.82
+      }
+    ]
+  }
+}

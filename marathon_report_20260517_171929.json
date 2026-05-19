@@ -1,0 +1,83 @@
+{
+  "test_config": {
+    "duration_minutes": 5.0,
+    "workers": 30
+  },
+  "metrics": {
+    "total_ops": 3476353,
+    "success": 3476353,
+    "failed": 0,
+    "anomalies_injected": 523162,
+    "gc_cycles": 1719,
+    "peak_memory_mb": 4.699161529541016,
+    "error_log": [],
+    "mem_samples": [
+      {
+        "time": "2026-05-17T17:14:28.962785",
+        "tag": "test_start",
+        "current_mb": 0.0,
+        "peak_mb": 0.0
+      },
+      {
+        "time": "2026-05-17T17:14:59.124123",
+        "tag": "periodic_monitor",
+        "current_mb": 2.21,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:15:29.223611",
+        "tag": "periodic_monitor",
+        "current_mb": 1.28,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:15:59.329520",
+        "tag": "periodic_monitor",
+        "current_mb": 2.3,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:16:29.466388",
+        "tag": "periodic_monitor",
+        "current_mb": 1.4,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:16:59.636196",
+        "tag": "periodic_monitor",
+        "current_mb": 3.28,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:17:29.788378",
+        "tag": "periodic_monitor",
+        "current_mb": 1.33,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:17:59.904043",
+        "tag": "periodic_monitor",
+        "current_mb": 1.57,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:18:30.031870",
+        "tag": "periodic_monitor",
+        "current_mb": 1.79,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:19:00.168524",
+        "tag": "periodic_monitor",
+        "current_mb": 1.74,
+        "peak_mb": 4.7
+      },
+      {
+        "time": "2026-05-17T17:19:29.274403",
+        "tag": "test_end",
+        "current_mb": 1.13,
+        "peak_mb": 4.7
+      }
+    ]
+  }
+}

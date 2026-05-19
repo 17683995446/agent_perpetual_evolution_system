@@ -309,6 +309,12 @@ class EnergySolution:
 
     def load_forecasting(self, location: str, forecast_period: int) -> Dict:
         """负荷预测"""
+        if location is None:
+            location = "Unknown"
+        if forecast_period is None:
+            forecast_period = 24
+        if forecast_period <= 0:
+            forecast_period = 1
         return {
             "location": location,
             "forecast_period": f"{forecast_period}小时",
@@ -335,8 +341,12 @@ class AgricultureSolution:
 
     def precision_planting(self, field_data: Dict, crop_type: str) -> Dict:
         """精准种植"""
+        if field_data is None:
+            field_data = {}
+        if crop_type is None:
+            crop_type = "Unknown Crop"
         return {
-            "field_id": field_data.get("id", "unknown"),
+            "field_id": field_data.get("id", "unknown") if field_data else "unknown",
             "crop": crop_type,
             "optimal_planting_density": random.randint(10000, 50000),
             "recommended_schedule": "春季播种",
@@ -408,10 +418,12 @@ class LogisticsSolution:
 
     def route_optimization(self, origin: str, destination: str, waypoints: List[str]) -> Dict:
         """路径优化"""
+        if waypoints is None:
+            waypoints = []
         return {
-            "origin": origin,
-            "destination": destination,
-            "optimal_route": [origin] + waypoints + [destination],
+            "origin": origin or "Unknown",
+            "destination": destination or "Unknown",
+            "optimal_route": [origin or "Unknown"] + waypoints + [destination or "Unknown"],
             "total_distance": f"{random.randint(100, 1000)}公里",
             "estimated_time": f"{random.randint(2, 12)}小时",
             "fuel_savings": f"{random.uniform(10, 25):.1f}%"
@@ -524,10 +536,16 @@ class EnvironmentalSolution:
 
     def pollution_monitoring(self, location: str, pollutant_types: List[str]) -> Dict:
         """污染监测"""
+        if location is None:
+            location = "Unknown"
+        if pollutant_types is None:
+            pollutant_types = ["PM2.5", "PM10"]
+        if len(pollutant_types) == 0:
+            pollutant_types = ["PM2.5", "PM10"]
         return {
             "location": location,
             "pollution_level": random.choice(["优良", "良好", "轻度污染", "中度污染"]),
-            "main_pollutants": pollutant_types[:2],
+            "main_pollutants": pollutant_types[:2] if pollutant_types else ["PM2.5"],
             "aqi": random.randint(50, 200)
         }
 

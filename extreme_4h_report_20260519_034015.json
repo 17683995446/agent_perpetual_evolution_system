@@ -1,0 +1,719 @@
+{
+  "test_config": {
+    "duration_minutes": 240.0,
+    "workers": 120,
+    "anomaly_rate": 0.5
+  },
+  "metrics": {
+    "total_ops": 28543302,
+    "success": 28543302,
+    "failed": 0,
+    "anomalies_injected": 14271607,
+    "large_objects_created": 1311006,
+    "gc_cycles": 23640,
+    "peak_memory_mb": 127.83494663238525,
+    "error_log": [],
+    "mem_samples": [
+      {
+        "time": "2026-05-19T03:07:21.778162",
+        "tag": "periodic_monitor",
+        "current_mb": 98.44,
+        "peak_mb": 127.83,
+        "large_objects": 96
+      },
+      {
+        "time": "2026-05-19T03:07:41.905284",
+        "tag": "periodic_monitor",
+        "current_mb": 72.67,
+        "peak_mb": 127.83,
+        "large_objects": 89
+      },
+      {
+        "time": "2026-05-19T03:08:02.052612",
+        "tag": "periodic_monitor",
+        "current_mb": 55.14,
+        "peak_mb": 127.83,
+        "large_objects": 50
+      },
+      {
+        "time": "2026-05-19T03:08:22.169290",
+        "tag": "periodic_monitor",
+        "current_mb": 97.07,
+        "peak_mb": 127.83,
+        "large_objects": 95
+      },
+      {
+        "time": "2026-05-19T03:08:42.231904",
+        "tag": "periodic_monitor",
+        "current_mb": 92.06,
+        "peak_mb": 127.83,
+        "large_objects": 91
+      },
+      {
+        "time": "2026-05-19T03:09:02.369974",
+        "tag": "periodic_monitor",
+        "current_mb": 90.6,
+        "peak_mb": 127.83,
+        "large_objects": 98
+      },
+      {
+        "time": "2026-05-19T03:09:22.506700",
+        "tag": "periodic_monitor",
+        "current_mb": 90.11,
+        "peak_mb": 127.83,
+        "large_objects": 93
+      },
+      {
+        "time": "2026-05-19T03:09:42.615446",
+        "tag": "periodic_monitor",
+        "current_mb": 79.9,
+        "peak_mb": 127.83,
+        "large_objects": 76
+      },
+      {
+        "time": "2026-05-19T03:10:02.753494",
+        "tag": "periodic_monitor",
+        "current_mb": 89.2,
+        "peak_mb": 127.83,
+        "large_objects": 93
+      },
+      {
+        "time": "2026-05-19T03:10:22.843054",
+        "tag": "periodic_monitor",
+        "current_mb": 88.72,
+        "peak_mb": 127.83,
+        "large_objects": 93
+      },
+      {
+        "time": "2026-05-19T03:10:42.912663",
+        "tag": "periodic_monitor",
+        "current_mb": 71.25,
+        "peak_mb": 127.83,
+        "large_objects": 66
+      },
+      {
+        "time": "2026-05-19T03:11:03.032296",
+        "tag": "periodic_monitor",
+        "current_mb": 55.22,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:11:23.163814",
+        "tag": "periodic_monitor",
+        "current_mb": 88.16,
+        "peak_mb": 127.83,
+        "large_objects": 96
+      },
+      {
+        "time": "2026-05-19T03:11:43.310934",
+        "tag": "periodic_monitor",
+        "current_mb": 69.16,
+        "peak_mb": 127.83,
+        "large_objects": 70
+      },
+      {
+        "time": "2026-05-19T03:12:03.405892",
+        "tag": "periodic_monitor",
+        "current_mb": 77.06,
+        "peak_mb": 127.83,
+        "large_objects": 82
+      },
+      {
+        "time": "2026-05-19T03:12:23.515542",
+        "tag": "periodic_monitor",
+        "current_mb": 80.89,
+        "peak_mb": 127.83,
+        "large_objects": 88
+      },
+      {
+        "time": "2026-05-19T03:12:43.718019",
+        "tag": "periodic_monitor",
+        "current_mb": 48.78,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:13:03.790284",
+        "tag": "periodic_monitor",
+        "current_mb": 87.03,
+        "peak_mb": 127.83,
+        "large_objects": 89
+      },
+      {
+        "time": "2026-05-19T03:13:23.850901",
+        "tag": "periodic_monitor",
+        "current_mb": 47.51,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:13:43.900890",
+        "tag": "periodic_monitor",
+        "current_mb": 86.95,
+        "peak_mb": 127.83,
+        "large_objects": 96
+      },
+      {
+        "time": "2026-05-19T03:14:03.983274",
+        "tag": "periodic_monitor",
+        "current_mb": 95.85,
+        "peak_mb": 127.83,
+        "large_objects": 97
+      },
+      {
+        "time": "2026-05-19T03:14:24.126233",
+        "tag": "periodic_monitor",
+        "current_mb": 53.32,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:14:44.235132",
+        "tag": "periodic_monitor",
+        "current_mb": 61.89,
+        "peak_mb": 127.83,
+        "large_objects": 61
+      },
+      {
+        "time": "2026-05-19T03:15:04.403792",
+        "tag": "periodic_monitor",
+        "current_mb": 53.34,
+        "peak_mb": 127.83,
+        "large_objects": 55
+      },
+      {
+        "time": "2026-05-19T03:15:24.513152",
+        "tag": "periodic_monitor",
+        "current_mb": 89.79,
+        "peak_mb": 127.83,
+        "large_objects": 98
+      },
+      {
+        "time": "2026-05-19T03:15:44.645367",
+        "tag": "periodic_monitor",
+        "current_mb": 87.91,
+        "peak_mb": 127.83,
+        "large_objects": 95
+      },
+      {
+        "time": "2026-05-19T03:16:04.728539",
+        "tag": "periodic_monitor",
+        "current_mb": 79.16,
+        "peak_mb": 127.83,
+        "large_objects": 86
+      },
+      {
+        "time": "2026-05-19T03:16:24.881959",
+        "tag": "periodic_monitor",
+        "current_mb": 92.57,
+        "peak_mb": 127.83,
+        "large_objects": 96
+      },
+      {
+        "time": "2026-05-19T03:16:44.975042",
+        "tag": "periodic_monitor",
+        "current_mb": 85.41,
+        "peak_mb": 127.83,
+        "large_objects": 89
+      },
+      {
+        "time": "2026-05-19T03:17:05.029975",
+        "tag": "periodic_monitor",
+        "current_mb": 46.1,
+        "peak_mb": 127.83,
+        "large_objects": 59
+      },
+      {
+        "time": "2026-05-19T03:17:25.150224",
+        "tag": "periodic_monitor",
+        "current_mb": 64.68,
+        "peak_mb": 127.83,
+        "large_objects": 59
+      },
+      {
+        "time": "2026-05-19T03:17:45.187619",
+        "tag": "periodic_monitor",
+        "current_mb": 54.76,
+        "peak_mb": 127.83,
+        "large_objects": 59
+      },
+      {
+        "time": "2026-05-19T03:18:05.342556",
+        "tag": "periodic_monitor",
+        "current_mb": 69.19,
+        "peak_mb": 127.83,
+        "large_objects": 67
+      },
+      {
+        "time": "2026-05-19T03:18:25.515074",
+        "tag": "periodic_monitor",
+        "current_mb": 87.71,
+        "peak_mb": 127.83,
+        "large_objects": 92
+      },
+      {
+        "time": "2026-05-19T03:18:45.608451",
+        "tag": "periodic_monitor",
+        "current_mb": 91.17,
+        "peak_mb": 127.83,
+        "large_objects": 85
+      },
+      {
+        "time": "2026-05-19T03:19:05.737372",
+        "tag": "periodic_monitor",
+        "current_mb": 48.78,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:19:25.874394",
+        "tag": "periodic_monitor",
+        "current_mb": 56.37,
+        "peak_mb": 127.83,
+        "large_objects": 61
+      },
+      {
+        "time": "2026-05-19T03:19:45.995392",
+        "tag": "periodic_monitor",
+        "current_mb": 53.91,
+        "peak_mb": 127.83,
+        "large_objects": 55
+      },
+      {
+        "time": "2026-05-19T03:20:06.122230",
+        "tag": "periodic_monitor",
+        "current_mb": 56.25,
+        "peak_mb": 127.83,
+        "large_objects": 75
+      },
+      {
+        "time": "2026-05-19T03:20:26.257592",
+        "tag": "periodic_monitor",
+        "current_mb": 80.13,
+        "peak_mb": 127.83,
+        "large_objects": 81
+      },
+      {
+        "time": "2026-05-19T03:20:46.314960",
+        "tag": "periodic_monitor",
+        "current_mb": 52.76,
+        "peak_mb": 127.83,
+        "large_objects": 57
+      },
+      {
+        "time": "2026-05-19T03:21:06.417828",
+        "tag": "periodic_monitor",
+        "current_mb": 81.13,
+        "peak_mb": 127.83,
+        "large_objects": 73
+      },
+      {
+        "time": "2026-05-19T03:21:26.593704",
+        "tag": "periodic_monitor",
+        "current_mb": 52.76,
+        "peak_mb": 127.83,
+        "large_objects": 55
+      },
+      {
+        "time": "2026-05-19T03:21:46.714655",
+        "tag": "periodic_monitor",
+        "current_mb": 52.85,
+        "peak_mb": 127.83,
+        "large_objects": 61
+      },
+      {
+        "time": "2026-05-19T03:22:06.921897",
+        "tag": "periodic_monitor",
+        "current_mb": 99.53,
+        "peak_mb": 127.83,
+        "large_objects": 98
+      },
+      {
+        "time": "2026-05-19T03:22:27.017791",
+        "tag": "periodic_monitor",
+        "current_mb": 100.16,
+        "peak_mb": 127.83,
+        "large_objects": 98
+      },
+      {
+        "time": "2026-05-19T03:22:47.190333",
+        "tag": "periodic_monitor",
+        "current_mb": 61.88,
+        "peak_mb": 127.83,
+        "large_objects": 65
+      },
+      {
+        "time": "2026-05-19T03:23:07.304589",
+        "tag": "periodic_monitor",
+        "current_mb": 105.05,
+        "peak_mb": 127.83,
+        "large_objects": 54
+      },
+      {
+        "time": "2026-05-19T03:23:27.391350",
+        "tag": "periodic_monitor",
+        "current_mb": 66.5,
+        "peak_mb": 127.83,
+        "large_objects": 68
+      },
+      {
+        "time": "2026-05-19T03:23:47.505660",
+        "tag": "periodic_monitor",
+        "current_mb": 78.46,
+        "peak_mb": 127.83,
+        "large_objects": 74
+      },
+      {
+        "time": "2026-05-19T03:24:07.753420",
+        "tag": "periodic_monitor",
+        "current_mb": 101.24,
+        "peak_mb": 127.83,
+        "large_objects": 50
+      },
+      {
+        "time": "2026-05-19T03:24:27.960910",
+        "tag": "periodic_monitor",
+        "current_mb": 86.86,
+        "peak_mb": 127.83,
+        "large_objects": 86
+      },
+      {
+        "time": "2026-05-19T03:24:48.039732",
+        "tag": "periodic_monitor",
+        "current_mb": 87.0,
+        "peak_mb": 127.83,
+        "large_objects": 94
+      },
+      {
+        "time": "2026-05-19T03:25:08.224839",
+        "tag": "periodic_monitor",
+        "current_mb": 48.42,
+        "peak_mb": 127.83,
+        "large_objects": 54
+      },
+      {
+        "time": "2026-05-19T03:25:28.344391",
+        "tag": "periodic_monitor",
+        "current_mb": 57.44,
+        "peak_mb": 127.83,
+        "large_objects": 65
+      },
+      {
+        "time": "2026-05-19T03:25:48.453395",
+        "tag": "periodic_monitor",
+        "current_mb": 70.86,
+        "peak_mb": 127.83,
+        "large_objects": 81
+      },
+      {
+        "time": "2026-05-19T03:26:08.573087",
+        "tag": "periodic_monitor",
+        "current_mb": 55.39,
+        "peak_mb": 127.83,
+        "large_objects": 66
+      },
+      {
+        "time": "2026-05-19T03:26:28.725702",
+        "tag": "periodic_monitor",
+        "current_mb": 57.23,
+        "peak_mb": 127.83,
+        "large_objects": 63
+      },
+      {
+        "time": "2026-05-19T03:26:48.861076",
+        "tag": "periodic_monitor",
+        "current_mb": 55.09,
+        "peak_mb": 127.83,
+        "large_objects": 63
+      },
+      {
+        "time": "2026-05-19T03:27:08.975978",
+        "tag": "periodic_monitor",
+        "current_mb": 97.84,
+        "peak_mb": 127.83,
+        "large_objects": 94
+      },
+      {
+        "time": "2026-05-19T03:27:29.067019",
+        "tag": "periodic_monitor",
+        "current_mb": 53.43,
+        "peak_mb": 127.83,
+        "large_objects": 56
+      },
+      {
+        "time": "2026-05-19T03:27:49.181272",
+        "tag": "periodic_monitor",
+        "current_mb": 98.67,
+        "peak_mb": 127.83,
+        "large_objects": 98
+      },
+      {
+        "time": "2026-05-19T03:28:09.398234",
+        "tag": "periodic_monitor",
+        "current_mb": 47.9,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:28:29.573565",
+        "tag": "periodic_monitor",
+        "current_mb": 81.38,
+        "peak_mb": 127.83,
+        "large_objects": 81
+      },
+      {
+        "time": "2026-05-19T03:28:49.637772",
+        "tag": "periodic_monitor",
+        "current_mb": 57.08,
+        "peak_mb": 127.83,
+        "large_objects": 73
+      },
+      {
+        "time": "2026-05-19T03:29:09.721012",
+        "tag": "periodic_monitor",
+        "current_mb": 69.27,
+        "peak_mb": 127.83,
+        "large_objects": 78
+      },
+      {
+        "time": "2026-05-19T03:29:29.933917",
+        "tag": "periodic_monitor",
+        "current_mb": 47.49,
+        "peak_mb": 127.83,
+        "large_objects": 53
+      },
+      {
+        "time": "2026-05-19T03:29:50.059548",
+        "tag": "periodic_monitor",
+        "current_mb": 47.96,
+        "peak_mb": 127.83,
+        "large_objects": 54
+      },
+      {
+        "time": "2026-05-19T03:30:10.168147",
+        "tag": "periodic_monitor",
+        "current_mb": 66.99,
+        "peak_mb": 127.83,
+        "large_objects": 70
+      },
+      {
+        "time": "2026-05-19T03:30:30.271635",
+        "tag": "periodic_monitor",
+        "current_mb": 60.17,
+        "peak_mb": 127.83,
+        "large_objects": 69
+      },
+      {
+        "time": "2026-05-19T03:30:50.334810",
+        "tag": "periodic_monitor",
+        "current_mb": 94.31,
+        "peak_mb": 127.83,
+        "large_objects": 99
+      },
+      {
+        "time": "2026-05-19T03:31:10.481877",
+        "tag": "periodic_monitor",
+        "current_mb": 64.6,
+        "peak_mb": 127.83,
+        "large_objects": 62
+      },
+      {
+        "time": "2026-05-19T03:31:30.600789",
+        "tag": "periodic_monitor",
+        "current_mb": 50.43,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:31:50.684700",
+        "tag": "periodic_monitor",
+        "current_mb": 88.01,
+        "peak_mb": 127.83,
+        "large_objects": 87
+      },
+      {
+        "time": "2026-05-19T03:32:10.754246",
+        "tag": "periodic_monitor",
+        "current_mb": 65.6,
+        "peak_mb": 127.83,
+        "large_objects": 76
+      },
+      {
+        "time": "2026-05-19T03:32:30.923847",
+        "tag": "periodic_monitor",
+        "current_mb": 102.04,
+        "peak_mb": 127.83,
+        "large_objects": 50
+      },
+      {
+        "time": "2026-05-19T03:32:51.093060",
+        "tag": "periodic_monitor",
+        "current_mb": 67.3,
+        "peak_mb": 127.83,
+        "large_objects": 69
+      },
+      {
+        "time": "2026-05-19T03:33:11.184611",
+        "tag": "periodic_monitor",
+        "current_mb": 52.59,
+        "peak_mb": 127.83,
+        "large_objects": 57
+      },
+      {
+        "time": "2026-05-19T03:33:31.325720",
+        "tag": "periodic_monitor",
+        "current_mb": 92.56,
+        "peak_mb": 127.83,
+        "large_objects": 50
+      },
+      {
+        "time": "2026-05-19T03:33:51.440957",
+        "tag": "periodic_monitor",
+        "current_mb": 70.51,
+        "peak_mb": 127.83,
+        "large_objects": 82
+      },
+      {
+        "time": "2026-05-19T03:34:11.612366",
+        "tag": "periodic_monitor",
+        "current_mb": 52.31,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:34:31.845658",
+        "tag": "periodic_monitor",
+        "current_mb": 68.87,
+        "peak_mb": 127.83,
+        "large_objects": 84
+      },
+      {
+        "time": "2026-05-19T03:34:51.966938",
+        "tag": "periodic_monitor",
+        "current_mb": 44.65,
+        "peak_mb": 127.83,
+        "large_objects": 55
+      },
+      {
+        "time": "2026-05-19T03:35:12.033222",
+        "tag": "periodic_monitor",
+        "current_mb": 63.05,
+        "peak_mb": 127.83,
+        "large_objects": 65
+      },
+      {
+        "time": "2026-05-19T03:35:32.300999",
+        "tag": "periodic_monitor",
+        "current_mb": 98.98,
+        "peak_mb": 127.83,
+        "large_objects": 53
+      },
+      {
+        "time": "2026-05-19T03:35:52.415275",
+        "tag": "periodic_monitor",
+        "current_mb": 90.62,
+        "peak_mb": 127.83,
+        "large_objects": 81
+      },
+      {
+        "time": "2026-05-19T03:36:12.529674",
+        "tag": "periodic_monitor",
+        "current_mb": 73.49,
+        "peak_mb": 127.83,
+        "large_objects": 66
+      },
+      {
+        "time": "2026-05-19T03:36:32.700802",
+        "tag": "periodic_monitor",
+        "current_mb": 94.43,
+        "peak_mb": 127.83,
+        "large_objects": 99
+      },
+      {
+        "time": "2026-05-19T03:36:52.906464",
+        "tag": "periodic_monitor",
+        "current_mb": 63.55,
+        "peak_mb": 127.83,
+        "large_objects": 71
+      },
+      {
+        "time": "2026-05-19T03:37:13.042733",
+        "tag": "periodic_monitor",
+        "current_mb": 72.42,
+        "peak_mb": 127.83,
+        "large_objects": 70
+      },
+      {
+        "time": "2026-05-19T03:37:33.204169",
+        "tag": "periodic_monitor",
+        "current_mb": 68.36,
+        "peak_mb": 127.83,
+        "large_objects": 62
+      },
+      {
+        "time": "2026-05-19T03:37:53.450559",
+        "tag": "periodic_monitor",
+        "current_mb": 67.1,
+        "peak_mb": 127.83,
+        "large_objects": 78
+      },
+      {
+        "time": "2026-05-19T03:38:13.572619",
+        "tag": "periodic_monitor",
+        "current_mb": 54.9,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:38:33.698550",
+        "tag": "periodic_monitor",
+        "current_mb": 70.09,
+        "peak_mb": 127.83,
+        "large_objects": 76
+      },
+      {
+        "time": "2026-05-19T03:38:53.768503",
+        "tag": "periodic_monitor",
+        "current_mb": 98.18,
+        "peak_mb": 127.83,
+        "large_objects": 99
+      },
+      {
+        "time": "2026-05-19T03:39:13.885085",
+        "tag": "periodic_monitor",
+        "current_mb": 83.34,
+        "peak_mb": 127.83,
+        "large_objects": 93
+      },
+      {
+        "time": "2026-05-19T03:39:34.075665",
+        "tag": "periodic_monitor",
+        "current_mb": 96.31,
+        "peak_mb": 127.83,
+        "large_objects": 97
+      },
+      {
+        "time": "2026-05-19T03:39:54.264861",
+        "tag": "periodic_monitor",
+        "current_mb": 51.33,
+        "peak_mb": 127.83,
+        "large_objects": 52
+      },
+      {
+        "time": "2026-05-19T03:40:14.371746",
+        "tag": "periodic_monitor",
+        "current_mb": 85.6,
+        "peak_mb": 127.83,
+        "large_objects": 99
+      },
+      {
+        "time": "2026-05-19T03:40:15.371984",
+        "tag": "test_end",
+        "current_mb": 52.69,
+        "peak_mb": 127.83,
+        "large_objects": 51
+      }
+    ]
+  }
+}

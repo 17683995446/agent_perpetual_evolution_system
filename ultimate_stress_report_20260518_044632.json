@@ -1,0 +1,1188 @@
+{
+  "test_config": {
+    "duration_minutes": 10.0,
+    "workers": 50
+  },
+  "metrics": {
+    "total_ops": 7005785,
+    "success": 6795287,
+    "failed": 210498,
+    "anomalies_injected": 1751200,
+    "gc_cycles": 6959,
+    "peak_memory_mb": 6.1097002029418945,
+    "error_log": [
+      {
+        "time": "2026-05-18T04:36:31.804814",
+        "worker": 4,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.805108",
+        "worker": 4,
+        "step": 5,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.813154",
+        "worker": 11,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.814883",
+        "worker": 14,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.815268",
+        "worker": 14,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.815891",
+        "worker": 15,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.823039",
+        "worker": 4,
+        "step": 18,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.825078",
+        "worker": 7,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.836485",
+        "worker": 20,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.841329",
+        "worker": 4,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.842415",
+        "worker": 9,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.842978",
+        "worker": 9,
+        "step": 42,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.845994",
+        "worker": 12,
+        "step": 22,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.848938",
+        "worker": 14,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.853315",
+        "worker": 9,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.854724",
+        "worker": 13,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.861896",
+        "worker": 10,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.862101",
+        "worker": 4,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.862422",
+        "worker": 4,
+        "step": 51,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.863918",
+        "worker": 5,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.864099",
+        "worker": 5,
+        "step": 49,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.865993",
+        "worker": 6,
+        "step": 60,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.866513",
+        "worker": 10,
+        "step": 15,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.867039",
+        "worker": 10,
+        "step": 26,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.867082",
+        "worker": 10,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.867398",
+        "worker": 10,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.868534",
+        "worker": 8,
+        "step": 53,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.869854",
+        "worker": 16,
+        "step": 53,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.871443",
+        "worker": 12,
+        "step": 34,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.873512",
+        "worker": 0,
+        "step": 74,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.874506",
+        "worker": 17,
+        "step": 37,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.878538",
+        "worker": 1,
+        "step": 24,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.880182",
+        "worker": 28,
+        "step": 13,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.886246",
+        "worker": 24,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.886894",
+        "worker": 21,
+        "step": 15,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.887214",
+        "worker": 21,
+        "step": 21,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.888261",
+        "worker": 29,
+        "step": 1,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.893135",
+        "worker": 16,
+        "step": 64,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.897160",
+        "worker": 3,
+        "step": 107,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.897503",
+        "worker": 3,
+        "step": 111,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.907614",
+        "worker": 30,
+        "step": 42,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.908919",
+        "worker": 14,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.908972",
+        "worker": 14,
+        "step": 47,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.909155",
+        "worker": 14,
+        "step": 52,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.915951",
+        "worker": 5,
+        "step": 75,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.918251",
+        "worker": 4,
+        "step": 80,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.921014",
+        "worker": 19,
+        "step": 40,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.921343",
+        "worker": 19,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.922013",
+        "worker": 12,
+        "step": 62,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.922400",
+        "worker": 30,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.926135",
+        "worker": 3,
+        "step": 120,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.926253",
+        "worker": 3,
+        "step": 124,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.926582",
+        "worker": 3,
+        "step": 128,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.934534",
+        "worker": 5,
+        "step": 106,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.934930",
+        "worker": 5,
+        "step": 114,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.935750",
+        "worker": 23,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.935817",
+        "worker": 23,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.953439",
+        "worker": 22,
+        "step": 34,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.967691",
+        "worker": 24,
+        "step": 36,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.970368",
+        "worker": 31,
+        "step": 37,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.972022",
+        "worker": 16,
+        "step": 85,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.973304",
+        "worker": 23,
+        "step": 57,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.973710",
+        "worker": 13,
+        "step": 46,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.974173",
+        "worker": 20,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.976701",
+        "worker": 30,
+        "step": 52,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.978161",
+        "worker": 21,
+        "step": 33,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.979811",
+        "worker": 29,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.979960",
+        "worker": 29,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.980079",
+        "worker": 29,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.980893",
+        "worker": 13,
+        "step": 61,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.989560",
+        "worker": 24,
+        "step": 60,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.996467",
+        "worker": 1,
+        "step": 32,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.996517",
+        "worker": 1,
+        "step": 33,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:31.997907",
+        "worker": 33,
+        "step": 17,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.002165",
+        "worker": 17,
+        "step": 63,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.003181",
+        "worker": 21,
+        "step": 61,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.005597",
+        "worker": 39,
+        "step": 0,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.006916",
+        "worker": 37,
+        "step": 15,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.012468",
+        "worker": 31,
+        "step": 65,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.017535",
+        "worker": 8,
+        "step": 86,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.018173",
+        "worker": 25,
+        "step": 45,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.018944",
+        "worker": 25,
+        "step": 58,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.022153",
+        "worker": 16,
+        "step": 110,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.025710",
+        "worker": 28,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.027663",
+        "worker": 17,
+        "step": 80,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.029253",
+        "worker": 33,
+        "step": 21,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.029336",
+        "worker": 6,
+        "step": 117,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.034936",
+        "worker": 2,
+        "step": 85,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.037052",
+        "worker": 19,
+        "step": 79,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.043996",
+        "worker": 17,
+        "step": 109,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.044714",
+        "worker": 2,
+        "step": 96,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.044931",
+        "worker": 9,
+        "step": 76,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.047722",
+        "worker": 35,
+        "step": 41,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.050299",
+        "worker": 30,
+        "step": 65,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.057889",
+        "worker": 16,
+        "step": 137,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.059768",
+        "worker": 34,
+        "step": 16,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.063040",
+        "worker": 7,
+        "step": 84,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.064690",
+        "worker": 19,
+        "step": 115,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.066285",
+        "worker": 9,
+        "step": 89,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.067139",
+        "worker": 34,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.067187",
+        "worker": 34,
+        "step": 21,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.069617",
+        "worker": 18,
+        "step": 86,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.071531",
+        "worker": 34,
+        "step": 34,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.079799",
+        "worker": 28,
+        "step": 64,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.080368",
+        "worker": 27,
+        "step": 43,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.080984",
+        "worker": 6,
+        "step": 129,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.088482",
+        "worker": 44,
+        "step": 3,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.094571",
+        "worker": 19,
+        "step": 123,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.098314",
+        "worker": 28,
+        "step": 80,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.099920",
+        "worker": 34,
+        "step": 50,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.100203",
+        "worker": 34,
+        "step": 57,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.102411",
+        "worker": 28,
+        "step": 93,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.105495",
+        "worker": 42,
+        "step": 25,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.111727",
+        "worker": 26,
+        "step": 193,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.115028",
+        "worker": 43,
+        "step": 20,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.116098",
+        "worker": 35,
+        "step": 91,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.116652",
+        "worker": 30,
+        "step": 123,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.117610",
+        "worker": 0,
+        "step": 121,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.119267",
+        "worker": 20,
+        "step": 83,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.120115",
+        "worker": 43,
+        "step": 24,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.120258",
+        "worker": 43,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.120939",
+        "worker": 18,
+        "step": 89,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.125262",
+        "worker": 18,
+        "step": 122,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.131099",
+        "worker": 8,
+        "step": 101,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.131931",
+        "worker": 41,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.132870",
+        "worker": 20,
+        "step": 96,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.135704",
+        "worker": 14,
+        "step": 97,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.137484",
+        "worker": 4,
+        "step": 116,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.143187",
+        "worker": 29,
+        "step": 48,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.148059",
+        "worker": 5,
+        "step": 143,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.151153",
+        "worker": 35,
+        "step": 97,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.159631",
+        "worker": 31,
+        "step": 102,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.166141",
+        "worker": 41,
+        "step": 54,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.166587",
+        "worker": 32,
+        "step": 31,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.170842",
+        "worker": 27,
+        "step": 52,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.172225",
+        "worker": 29,
+        "step": 86,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.178868",
+        "worker": 19,
+        "step": 160,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.188542",
+        "worker": 32,
+        "step": 38,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.188844",
+        "worker": 32,
+        "step": 44,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.189246",
+        "worker": 12,
+        "step": 216,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.198603",
+        "worker": 19,
+        "step": 171,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.203619",
+        "worker": 23,
+        "step": 142,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.204945",
+        "worker": 8,
+        "step": 124,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.207306",
+        "worker": 14,
+        "step": 116,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.207421",
+        "worker": 40,
+        "step": 23,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.207694",
+        "worker": 40,
+        "step": 27,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.208768",
+        "worker": 7,
+        "step": 131,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.216421",
+        "worker": 38,
+        "step": 21,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.218622",
+        "worker": 41,
+        "step": 83,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      },
+      {
+        "time": "2026-05-18T04:36:32.220206",
+        "worker": 28,
+        "step": 148,
+        "error_type": "AttributeError",
+        "error_msg": "'EnergySolution' object has no attribute 'predict_energy_demand'"
+      }
+    ],
+    "mem_samples": [
+      {
+        "time": "2026-05-18T04:40:12.534838",
+        "tag": "periodic_monitor",
+        "current_mb": 4.41,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:40:32.699183",
+        "tag": "periodic_monitor",
+        "current_mb": 2.9,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:40:52.887398",
+        "tag": "periodic_monitor",
+        "current_mb": 3.74,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:41:13.132002",
+        "tag": "periodic_monitor",
+        "current_mb": 4.02,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:41:33.272286",
+        "tag": "periodic_monitor",
+        "current_mb": 4.39,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:41:53.417135",
+        "tag": "periodic_monitor",
+        "current_mb": 3.81,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:42:13.502629",
+        "tag": "periodic_monitor",
+        "current_mb": 2.61,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:42:33.542228",
+        "tag": "periodic_monitor",
+        "current_mb": 3.1,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:42:53.584646",
+        "tag": "periodic_monitor",
+        "current_mb": 3.07,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:43:13.623813",
+        "tag": "periodic_monitor",
+        "current_mb": 2.92,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:43:33.662451",
+        "tag": "periodic_monitor",
+        "current_mb": 2.57,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:43:53.716727",
+        "tag": "periodic_monitor",
+        "current_mb": 3.9,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:44:13.880954",
+        "tag": "periodic_monitor",
+        "current_mb": 3.9,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:44:34.036454",
+        "tag": "periodic_monitor",
+        "current_mb": 3.49,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:44:54.223473",
+        "tag": "periodic_monitor",
+        "current_mb": 3.96,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:45:14.383649",
+        "tag": "periodic_monitor",
+        "current_mb": 4.24,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:45:34.556585",
+        "tag": "periodic_monitor",
+        "current_mb": 3.55,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:45:54.707954",
+        "tag": "periodic_monitor",
+        "current_mb": 3.28,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:46:14.848536",
+        "tag": "periodic_monitor",
+        "current_mb": 4.51,
+        "peak_mb": 6.11
+      },
+      {
+        "time": "2026-05-18T04:46:32.995967",
+        "tag": "test_end",
+        "current_mb": 2.3,
+        "peak_mb": 6.11
+      }
+    ]
+  }
+}

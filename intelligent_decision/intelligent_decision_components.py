@@ -481,6 +481,10 @@ class RealTimeOptimizer:
         self.optimizer_id = str(uuid.uuid4())[:8]
         print("⚡ 实时优化器初始化完成")
 
+    def optimize(self, system_id: str) -> Dict:
+        """实时系统优化（便捷方法）"""
+        return self.optimize_stream([], time_window=60)
+
     def optimize_stream(self, data_stream: List[Dict], time_window: int) -> Dict:
         """流式数据优化"""
         window_data = data_stream[-time_window:]
@@ -513,11 +517,20 @@ class StrategicPlanner:
 
     def create_strategic_plan(self, vision: str, time_horizon: int, objectives: List[Dict]) -> Dict:
         """创建战略计划"""
+        if vision is None:
+            vision = "Unknown Vision"
+        if time_horizon is None:
+            time_horizon = 12
+        if time_horizon <= 0:
+            time_horizon = 1
+        if objectives is None:
+            objectives = []
+
         phases = []
         for i in range(3):
             phases.append({
                 "phase": f"阶段{i+1}",
-                "duration": time_horizon // 3,
+                "duration": time_horizon // 3 if time_horizon >= 3 else 1,
                 "objectives": [f"目标{j+1}" for j in range(3)],
                 "milestones": [f"里程碑{j+1}" for j in range(2)]
             })

@@ -326,6 +326,10 @@ class QuantumChemistry:
 
     def simulate_molecule(self, formula: str, num_electrons: int) -> Dict:
         """模拟分子结构"""
+        if formula is None:
+            formula = "Unknown"
+        if num_electrons is None:
+            num_electrons = 0
         energy = random.uniform(-100, -10)
 
         return {
@@ -387,15 +391,29 @@ class QuantumFinance:
 
     def optimize_portfolio(self, assets: List[Dict], risk_tolerance: float) -> Dict:
         """量子投资组合优化"""
+        if assets is None:
+            assets = []
+        if risk_tolerance is None:
+            risk_tolerance = 0.5
+        if len(assets) == 0:
+            return {
+                "assets": 0,
+                "risk_tolerance": risk_tolerance,
+                "optimal_weights": {},
+                "expected_return": 0.0,
+                "expected_risk": 0.0,
+                "sharpe_ratio": 0.0
+            }
+
         weights = [random.random() for _ in assets]
-        total = sum(weights)
+        total = sum(weights) if weights else 1
         normalized_weights = [w / total for w in weights]
 
         return {
             "assets": len(assets),
             "risk_tolerance": risk_tolerance,
             "optimal_weights": {
-                assets[i]["symbol"]: round(normalized_weights[i], 4)
+                (assets[i].get("symbol") if assets[i] else f"Asset_{i}"): round(normalized_weights[i], 4)
                 for i in range(len(assets))
             },
             "expected_return": round(random.uniform(0.05, 0.20), 4),
@@ -470,12 +488,21 @@ class QuantumSupplyChain:
 
     def optimize_inventory(self, products: List[Dict], demand_forecast: List[int]) -> Dict:
         """优化库存管理"""
+        if products is None:
+            products = []
+        if demand_forecast is None:
+            demand_forecast = [0]
+        if len(demand_forecast) == 0:
+            demand_forecast = [0]
+
         reorder_points = []
         for product in products:
-            avg_demand = sum(demand_forecast) / len(demand_forecast)
+            if product is None:
+                continue
+            avg_demand = sum(demand_forecast) / len(demand_forecast) if demand_forecast else 0
             reorder_point = avg_demand * random.uniform(1.5, 3.0)
             reorder_points.append({
-                "product_id": product["id"],
+                "product_id": product.get("id", "unknown"),
                 "reorder_point": round(reorder_point, 2),
                 "safety_stock": round(reorder_point * 0.2, 2)
             })
@@ -517,6 +544,10 @@ class QuantumWeather:
 
     def predict_weather(self, location: str, forecast_days: int = 7) -> List[Dict]:
         """量子天气预报"""
+        if forecast_days is None:
+            forecast_days = 7
+        if forecast_days < 0:
+            forecast_days = 0
         predictions = []
         conditions = ["Sunny", "Cloudy", "Rainy", "Stormy", "Snowy"]
 
@@ -558,8 +589,15 @@ class QuantumTraffic:
 
     def optimize_traffic_light_timing(self, intersections: List[str], traffic_data: Dict) -> Dict:
         """优化交通信号灯时序"""
+        if intersections is None:
+            intersections = []
+        if traffic_data is None:
+            traffic_data = {}
+
         timings = {}
         for intersection in intersections:
+            if intersection is None:
+                continue
             timings[intersection] = {
                 "green_duration": random.randint(30, 90),
                 "cycle_length": random.randint(60, 120),
@@ -642,9 +680,18 @@ class QuantumScheduling:
 
     def schedule_tasks(self, tasks: List[Dict], workers: List[str]) -> Dict:
         """调度任务"""
+        if tasks is None:
+            tasks = []
+        if workers is None:
+            workers = ["DefaultWorker"]
+        if len(workers) == 0:
+            workers = ["DefaultWorker"]
+
         schedule = {}
         for task in tasks:
-            task_id = task["task_id"]
+            if task is None:
+                continue
+            task_id = task.get("task_id", "unknown")
             required_skills = task.get("skills", [])
 
             assigned_worker = random.choice(workers)
@@ -659,7 +706,7 @@ class QuantumScheduling:
             "tasks_scheduled": len(tasks),
             "workers": len(workers),
             "schedule": schedule,
-            "makespan": max(s["start_time"] + s["duration"] for s in schedule.values()),
+            "makespan": max([s["start_time"] + s["duration"] for s in schedule.values()]) if schedule else 0,
             "efficiency": round(random.uniform(0.75, 0.95), 2)
         }
 
