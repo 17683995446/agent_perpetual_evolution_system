@@ -7,7 +7,7 @@ import requests
 import subprocess
 
 # Configuration
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "REDACTED_GITHUB_TOKEN"
 REPO_NAME = "agent_perpetual_evolution_system"
 REPO_DESCRIPTION = "Agent Perpetual Evolution System - Advanced AI system with quantum and AGI capabilities"
 GITHUB_USER = "17683995446"
